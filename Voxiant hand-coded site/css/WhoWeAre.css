@@ -1,0 +1,160 @@
+/*----- Who we are paragraph left side properties--*/
+#whoarewe_text_par{ 
+	padding:0 0 20px 0;
+	float:left;
+}
+
+	#whoarewe_text_par p{
+	line-height:33px;
+	padding-top:16px;
+	width:450px;
+	}
+
+
+/*----- Who we are paragraph right side properties--*/
+#whoarewe_text_par_right{
+	width:450px; 
+	padding:55px 10px 20px 40px;
+	float:right;	
+	vertical-align:top;
+}
+
+#whoarewe_text_par_right p{
+	line-height:40px;
+	font-size:18px;
+	color:#A5A4A4;
+}
+
+#whoarewe_text_par_right a{
+	font-size:18px;
+	color:#FFFFFF;
+	background-color:#55A0FF;
+}
+
+#whoarewe_text_par_right a:hover{
+	font-size:18px;
+	color:#FFFFFF;
+	background-color:#04324F;
+}
+
+#bottom_content{
+	background-color:#F4FBFE;
+	padding-top:40px;
+	width:100%;
+	min-height:100%;
+}
+
+#our_team {min-height:100%}
+
+#our_team h2{
+	font-size:30px;
+	color:#3C99D4;
+}
+
+#our_team h3{
+	font-size:20px;
+	color:#404040;
+	font-weight:500;
+}
+#rest_of_team #restTeam {
+	font-size: 48px;
+	color: #606060;
+	font-weight:bold;
+	padding-bottom:30px;
+	padding-top:30px;
+}
+
+#our_team p{
+	font-size:14px;
+	color:#404040;
+	font-weight:100;
+	line-height:20px;
+}
+
+#who_ashan {height:325px; padding:40px 0 0 0
+	background: url(../images/hori_line.png) bottom left no-repeat;}
+#who_ashan_left{
+	height:300px;
+	width:250px;
+	padding: 15px 0 15px 0;
+	
+}
+
+
+#who_ashan_right{
+	height:300px;
+	width:575px;
+	padding: 15px 100px 15px 0;
+	float:right;	
+}
+
+#who_leonard {height:390px;
+	background: url(../images/hori_line.png) bottom left no-repeat;}
+#who_leonard_left{
+	height:300px;
+	width:560px;
+	padding: 15px 0 15px 100px;
+	float:left;
+	text-align:right;
+}
+
+#who_leonard_left a{
+	color:#95BA1D;
+}
+
+#who_leonard_left a:hover{
+	color:#66B0DE;
+}
+
+#who_leonard_right{
+	height:300px;
+	width:250px;
+	padding: 15px 0px 15px 0;
+	float:right;	
+}
+p.team_info {padding-top:5px;}
+	p.sub_twit {background: url(../images/twitter_bird.png) top left no-repeat;
+		padding-left: 45px;}
+
+
+#who_younu {
+	width:450px;
+	float:left;
+}
+#who_linds {
+	width:465px;
+	float:left;
+}
+	.who_rest_right {float:right; width:280px;}
+	.who_rest_left {float:left; width:120px; padding:0 15px 15px;}
+
+#rest_of_team {padding-top:15px;
+	background: url(../images/hori_line.png) bottom left no-repeat;
+	height:450px;}	
+	
+li.about a{background-position: 0 -102px !important;}
+
+/*---FONTS USED IN service page---*/
+/*---------------------------------*/
+	p.process_txt {font-size:14px; 
+		padding-top:5px; color:#404040;
+		line-height:20px;}
+	h2 {color:#404040; font-size:30px; 
+		font-weight:bold; letter-spacing:-1px;}
+	p.learnm_head {font-size:48px; font-weight:bold; color:#95ba1d;}
+	
+		/*---- EXPANDED SECTION---*/
+		#web_pros h2, #gra_pros h2{color:#ffffff; font-size:24px; }
+		#web_pros p.process_txt, #gra_pros p.process_txt {color:#daf0f9;} 
+
+p.learnm_txt {font-size:14px; color:#404040;}
+	p.learnm_txt span {font-weight:bold; color:#95ba1d}
+
+#learnMore a {font-size:30px; color:#95ba1d;}
+	#learnMore a:hover {background-color:#95ba1d; color:#ffffff;}
+	
+/*------------------------------------------------*/
+/*---INTRO Section height---*/
+#intro {height:200px;}
+
+		

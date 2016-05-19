@@ -1,0 +1,220 @@
+body, h1, h2, h3, h4, h5, h6, address, blockquote, dd, dl, hr, p, form{
+margin: 0;
+padding: 0;
+}
+img {border:0;}
+em {display:none;}
+a {text-decoration: none;}
+* {font-family:arial; color:#6a6969;}
+/*---- FONTS---*/
+b {font-weight:bold;}
+h1 {font-size:48px; }	
+h2 { font-size:24px;}
+ul {list-style-image:none;
+list-style-position:outside;
+list-style-type:none;}
+
+p.pg_nav {font-size:12px; font-style: italic;}
+
+/*-- pg title on top --*/
+p#introtxtpg {font-size:48px;color:#606060; letter-spacing:0px; font-weight:bold;}
+
+
+/*--- Clickable links---*/
+#mid_content a{font-style:italic;}
+	
+/*--- This will constrict the page for width of 950 centered---*/
+.Cwrapper {
+		margin: 0 auto;
+		width:925px;
+		padding:0 25px;}
+/*------ Contact form on the top of the page---*/
+#topContact { background-color:#0e82b6;}
+#top_bar {
+		Background-color:#0e82b6;
+		height:28px;}
+	/*-- home page link --*/
+	#home_nav {background: url(../images/nav_home.png) no-repeat top left;
+			height:38px; width:102px; display:block; float:left;
+			position:absolute;}
+		#home_nav:hover {background-position:-102px 0;}
+		a#cont_a {float:right; color:#ffffff; font-size:14px; padding-top:4px;
+			cursor:pointer;}
+			a#cont_a:hover{background-color:transparent; }
+			
+/*---Navigation Menu--*/
+#navigation {background: url(../images/nav_gradient.png) repeat-x;
+	height:91px;}
+	#logo {background: url(../images/logo.png) no-repeat top left;
+		height:74px; 
+		float:left;
+		display:inline;
+		width:233px;}
+
+		#nav { list-style-image:none;
+			list-style-position:outside;
+			list-style-type:none;
+			float:right;
+			padding:40px 0 0 0; margin:0;
+			width:480px;}
+		#nav li {float: left;}
+		#nav li a {display:block;
+			background: url(../images/nav_menu.png) no-repeat;
+			height:51px;
+			text-indent:-10px;}
+			/*----Codes for buttons---*/
+			#nav li.about a {background-position: 0 0; height:51px; 
+				width:96px;}
+				#nav li.about a:hover {background-position: 0 -51px;}
+				
+			#nav li.we_done a {background-position: -96px 0; height:51px; 
+				width:118px;}
+				#nav li.we_done a:hover {background-position: -96px -51px;}
+				
+			#nav li.services a {background-position: -214px 0; height:51px; 
+				width:134px;}
+				#nav li.services a:hover {background-position: -214px -51px;}
+				
+			#nav li.start a {background-position: -348px 0; height:51px; 
+				width:113px;}
+				#nav li.start a:hover {background-position: -348px -51px;}
+
+/*---Middle content head part---*/
+#mid_content { background-color:#f4fbfe;
+	padding-top:45px;}
+/*---Intro inside details---*/
+		#int_LHS {float:left;width:550px;}
+		
+			p.intro3 {padding-top:10px;}
+		#int_RHS {float:right; 
+			padding:0;	
+			width:455px;}
+		.int_LHS_inside {float:left;width:390px;}
+			.getSt {width:410px !important;}
+		.int_RHS_inside {float:right; 
+			padding:10px 0 0 25px;	
+			width:510px;}
+			#intro .servL {width:468px;}
+			#intro .servR {width:455px;}
+
+/*-- Back to top--*/
+#spacer { background-color:#F4FBFE; }
+.bottom {height:15px;padding:40px 0 15px 0;}
+#top {float:right; height:13px; display:block;
+		cursor:pointer;width:79px;}	
+	#top:hover {background-position: 0 -13px; background-color:transparent;}
+	a.backtop {background: url(../images/to_top.png) no-repeat top left;}
+	
+	
+/*---Footer---*/
+#footer {border-top: 5px solid 	#cfd0d1; 
+		background:#939191 url(../images/footer_grad.png) repeat-x bottom left;}
+a {color:#0f9acd;}
+a:hover {color:#ffffff; background-color:#0f9acd;}	
+	#top_footer {height:280px; padding-top:20px;}
+		#twitter {width:295px;}
+		.LHSfoot_box {
+			margin-right:25px;
+			float:left;			
+			font-size:12px;
+			width:280px;}
+			p.tw_lines {padding-top:10px;}
+	#RHS_foot {/*text-align:right;*/
+			float:right;
+			width:280px;}
+		#RHS_foot p.contact, .LHSfoot_box p.contact {font-size:30px;  padding-bottom:20px; color:#3a3a3a;}
+		
+		/*-- Footer fonts--*/
+		.LHSfoot_box p, .LHSfoot_box b {color:#ffffff;}
+		#RHS_foot a{color:#ffffff; text-decoration:underline;}
+		#RHS_foot p{color:#ffffff;}
+		#RHS_foot p.contact_lines{color:#c2c2c2;}
+		/*---TWITTER FEED--*/
+		a#twit{color:#ffffff; text-decoration:underline;}
+		.rss-box a{color:#e6e4e4;}
+		.rss-box ul{padding:5px 0 0 0; margin:0;}
+			.rss-box li{padding-bottom:10px; border-bottom: 1px solid #8e8d8d;}
+	
+	
+/*--- bottom of the footer---*/
+#bottom_footer {background-color:#202020;padding-top:5px;}
+#bottom_footer a {color:#6A6969;}
+	#bottom_footer a:hover {background-color:transparent; color:#0F9ACD;}
+	#LHS_bot_foot {background: url(../images/logo_footer.png) no-repeat top left;
+		float:left; padding:8px 0 0 50px; font-size:14px; 
+		height:26px;
+		width:450px;}
+	#RHS_bot_foot {text-align:right;float:right; font-size:10px;width:300px;
+		padding-top:8px;}
+	#bot_footer {height:35px;}
+/*==================================================================*/
+/*----- tool tips---*/
+.tipsy { padding: 5px; font-size: 10px; font-family:arial;opacity: 0.8; filter: alpha(opacity=80); background-repeat: no-repeat; }
+  .tipsy-inner { padding: 4px 5px; background-color: black; color: white; max-width: 200px; text-align: center; }
+  .tipsy-north { background-image: url(../images/tipsy-north.gif); background-position: top center; }
+  .tipsy-south { background-image: url(../images/tipsy-south.gif); background-position: bottom center; }
+  .tipsy-east { background-image: url(../images/tipsy-east.gif); background-position: right center; }
+  .tipsy-west { background-image: url(../images/tipsy-west.gif); background-position: left center; }
+  
+  
+  
+ /*----- contact top bar-----*/
+ /*--'contu_btn' class will open the contact top bar on anywhere--*/
+ /*--- FONTS---*/
+ .contact_top p{color:#67b6d9; font-size:14px;padding-top:5px;}
+	.contact_btn {color:#f1e4ba;font-size:14px; cursor:pointer;}	
+	#cff_left p {font-size:14px; color:#ffffff; line-height:20px;}
+	p.contact_34 {color:#ffffff; font-size:36px;
+			font-weight:bold;}
+		p.contact_34b{font-size:12px; color:#ffffff;}
+ /*---FONTS---*/
+ 
+ a.contu_btn {cursor:pointer;}/*-- Click on anywhere will open contact form--*/
+ .contact_f {background-color: #0f82b6;
+		position: relative; width:100%;}
+	.contact_wrap {margin:0 auto;width:950px;}
+		
+		#contact_top {height:29px; text-align:right;}
+		#the_contact {height:390px;overflow:hidden;clear:both; 
+				padding:0;position:relative; vertical-align:baseline;}
+	#cff_left p.email {padding-top:14px;}
+
+/*--- inside drop down form--*/
+#cff_inside {height:380px; position:absolute; bottom:0;}
+#cff_top{padding:10px 0 10px 250px;}
+#cff_left {float:left; padding-right:50px; 
+		padding-top:20px;width:200px;}
+#cff_right {float:left; font-family:arial; font-size:18px; width:700px;}
+	.container {padding-bottom: 10px;}
+	
+	/*-- Labels and headings and errors--*/
+	.label {height:25px;}
+		.label p.field{color:#ffffff; font-size:18px; }	
+			.label p.error {color:#a7ed3a; font-size:14px; padding: 4px 0 0 5px;
+				font-style:italic;}
+	.label p{float:left; }
+		
+		#cff_right input, #cff_right select, #cff_right textarea {
+			background-color:#ffffff; border-style:none;
+			padding:5px;
+			font-size:14px; font-family:arial; width:330px;}
+		#cff_right select{width:340px;}
+		#cff_right textarea { height:201px; margin:0px;}
+	.subbmit_btn {text-align:right;}
+		#cff_right button {border:none; padding:5px; cursor:pointer;
+			color:#0e5676; font-size:18px; font-family:arial; margin-top:8px;}
+		#cff_right button[type="reset"] {background-color:#379bc7; margin-right:4px;}
+			#cff_right button[type="reset"]:hover {background-color:#3190b6;}
+		#cff_right button[type="submit"] {background-color:#ffffff; }
+			#cff_right button[type="submit"]:hover {background-color:#c0eafa;}
+	.first, .second {float:left; width:340px;}
+	.second {padding-left:20px; }
+	
+/*--- Message sent text---*/
+p.msg_sent, p.msg_sent_sub {color:#f3e9c6;}
+	p.msg_sent {font-size:48px;}
+	p.msg_sent_sub {font-size:14px; padding-top:10px; width:500px;}
+	
+/*-- anything with this class to open contact bar*/
+.voxMail {cursor:pointer;}
+.clear{clear:both;}

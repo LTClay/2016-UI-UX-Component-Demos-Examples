@@ -1,0 +1,329 @@
+/*------------------------------------*/
+/*----------VOXIANTSOLUTIONS----------*/
+/*---------------Clients--------------*/
+
+#mid_content{}
+
+#client_login {height:300px;
+		padding-left:150px;
+		padding-top:100px;
+}
+	.cllog_left{float:left;
+			padding: 10px 15px;
+			text-align:right;
+			width:380px;
+			}
+	.cllog_right{float:left;
+			padding:20px 0 0 15px;
+			width:230px;
+			}
+	/*--client login page font styles--*/
+	p.tt01 {font-size:14px;}
+	p.tt02{font-size:48px; font-weight:bold;}
+		p.tt02 span{color:#0f99cc;}
+	p.tt03{font-size:12px; width:300px;
+			padding-left:80px;}
+	p.tt04{font-size:12px; color:#80807f;
+			padding-top:10px;
+			width:300px;
+			padding-left:80px;}
+	p.tt05{font-size:10px;}
+	p.tf01{color:#C93209; padding-top:3px;font-size:12px;}
+	
+	/*--- login fields and login button---*/
+	.cllog_right form input{border:1px solid #a9a9a9;
+			height:18px;
+			font-size:14px;
+			margin: 5px 0 0;
+			padding:4px;}
+		.cllog_right form input:focus {border:1px solid #1a84ae;}
+	.cllog_right button {
+			background:url(../images/clients_login.png) no-repeat top left;
+			border:none;
+			cursor:pointer;
+			height:30px;
+			width:123px;
+			margin-top:10px;
+			}
+		.cllog_right button:hover {background-position:0 -30px;}
+			width:225px;}
+			
+
+/*---VOXYCLIENT Version 1--*/
+	/*--header--*/
+		.vc_top{height:60px;}
+		.cl_head {padding-top:5px;height:36px;width:925px;}
+		/*-- client page header text--*/	
+		.cl_head h2 {padding-top:0!important; float:left; width:158px;
+				font-size:36px; font-weight:bold;line-height:30px;}
+		p#dark{float:left; font-size:36px; font-weight:bold;
+				line-height:30px;}
+		 a#logO {background:url(../images/voxyClient_logout.png) no-repeat top left;
+				height:22px; width:67px;display:block;
+				float:left;
+				margin:7px 0 0 5px;}
+			a#logO:hover{background-position:-67px 0;}
+	
+	
+	/*-- project content--*/
+	#low_mid {background-color:rgb(244,251,254); padding-top:1px;}
+	#project_content {width:950px;}
+		#project_content .project_c_head {background: url(../images/voxyClient_h1_grd.png) repeat-x top left;
+					height:31px;
+					margin-top:20px;}
+					
+			.project_c_head p{color:#ffffff; font-size:14px; padding:7px 0 0 10px;}
+		.projectC_inside{border:1px solid #b9b8b8;
+				background-color:#f8f7f7;}
+		.PC_head {background:url(../images/voxyClient_h2_grd.png) repeat-x top left;
+				height:32px; border-bottom:1px solid #b9b8b8; }
+		
+			.PC_title {width: 276px;padding:7px 10px 0 10px;height:25px;
+					float:left;}
+				.PC_title p{font-size:14px; float:left;}
+				#project_content p.PC_showhide {
+						background:url(../images/clpgsub_arrow.png) no-repeat;
+						width:15px; height:8px; cursor:pointer;
+						margin:5px 0 0 10px;}
+					#project_content p.PC_show{background-position: 0 0;}
+					#project_content p.PC_hide{background-position: -15px 0;}
+			.PC_progress {width:200px; float:left; padding:7px 10px 0 10px;}
+				.PC_progress p {font-size:14px;}
+		
+		/*-- the actual content--*/
+		.PC_inside{padding:15px;}
+		table.PC_in {width:920px;}
+			table.PC_in  tr{vertical-align:top;}
+		td.PCT_left{width:285px;}
+		td.PCT_right{width:595px;}
+			.PCI_left{padding-right:15px;}
+			.PCIL_price{height:60px; padding-top:10px;}
+				.PCILP_left{background-color:#e9e8e8;
+						padding:5px; float:left;margin-right:10px;}
+				.PCILP_right{padding:5px; float:left;}
+						
+				/*--fonts--*/
+					p.PCIL_head{font-size:18px; 
+							padding-bottom:4px;}
+						p.PCIL_tx{padding-top:3px;}
+							p.price_head{font-size:12px;}
+							p.price_txt{font-size:24px;
+									color:#2c2c2b;}
+					
+			/*--right side--*/
+			.PCI_right{}
+			.subProj_head {background: url(../images/voxyClient_h3_grd.png) repeat-x top left;
+					height:26px;
+					margin:0 2px;}
+				.subProj_head_v2 {background: url(../images/voxyClient_h3_grd.png) repeat-x top left;
+					height:26px;}
+				/*--fonts--*/
+					p.PCIR_header {font-size:14px;
+							padding:4px 5px;
+							color:#343433 !important;
+							float:left;}
+					a.file_download {background:url(../images/voxyClient_dl_btn.png) no-repeat;
+							height:18px; width:94px;display:block;}
+						a.file_download:hover{background-position:0 -18px;}
+					a.file_view{background:url(../images/voxyClient_vew_btn.png) no-repeat;
+							height:18px; width:73px; display:block;}
+						a.file_view:hover{background-position:0 -18px;}
+					
+					/*-- showing client uploaded files--*/
+					a.clfiles{height:16px; width:16px; display:block; float:left;
+							margin-right:3px;}
+					a.cfile_edit{background:url(../images/edit_upfile.png) no-repeat;}
+					a.cfile_delete{background:url(../images/delete_upfile.png) no-repeat;}
+					td#clupfiles{min-width:38px;}
+					td#clflsize{min-width:46px;}
+					td#upFileName{min-width:30px;}
+					
+					/*--sub header up and down arrows--*/
+					a.pgsub_updw{height:8px; width: 15px; display:block;
+							cursor:pointer;
+							float:left;
+							margin: 9px;
+							background:url(../images/clpgsub_arrow.png) no-repeat;}
+					a#PCIR_h_upd{background-position:0 0;}
+					a#PCIR_h_up{background-position:-15px 0;}
+					
+					/*--file uploading error message--*/
+					p.upfile_msg{color:#ffffff!important;
+							padding:3px 3px 3px 5px; background-color:#139FD2;}
+					p.upfile_er_msg{background-color:#f53f21;
+							color:#ffffff!important;
+							padding:3px 3px 3px 5px;}
+					
+					/*-- uploaded files preview--*/
+					.PCIR_pf span.upSHprev{display:none;
+							position:absolute;
+							margin-left:-44px;
+							margin-top:-110px;
+							padding-bottom:5px;
+							background:url(../images/tipsy-south.gif) bottom center no-repeat;}
+						.PCIR_pf span.upSHprev img{padding:3px; background:#000000;}
+					.upPrev{background: url(../images/upfile_preview.png) no-repeat;
+							height:16px; width:16px; display:block;
+							cursor:default;
+							float:left;}
+					 .upPrev:hover span, .upPrevHover{display:block;}
+					.fNM{font-weight:bold;}
+					
+					/*-- update uploaded files--*/
+					.PCR_in input#flDesc_U{width:300px;}
+					.PCIR_pf_edln{background-color:#139fd2;}
+						.PCIR_pf_edln td{color:#ffffff;}
+					 
+					
+						
+			
+			table.PCR_in {width:100%;}
+			table.PCR_in  tr{vertical-align:top;}
+			 tr.PCIR_pf_head {background-color:#e6e5e5;}
+			 tr.PCIR_pf_lines {background-color:#f0f0f0;}
+			  table.PCR_in td{padding:5px 10px 5px 10px;}
+			
+			/*-- File uploading--*/
+			.PCIR_uploadFiles{margin:15px 2px 10px;}
+			.PCIR_uploadFiles p, .PCIR_uploadFiles table td
+					{color:#ffffff;}
+				.PCIRU_header{padding-bottom:10px;font-size:14px;
+						background-color:#5a5958;
+						padding:5px;}
+				.PCIR_uf{background-color:#747373;
+						padding:8px 10px 10px;}				
+			input#flDesc{width:365px; border:none;padding:3px;}
+				td#uptb_01{padding-top:3px;padding-right:5px;}
+				tr#uptb_00 td{padding-bottom:5px;}
+				
+			/*--- Contract Files--*/
+			.PCIR_contractFiles{margin-top:15px;}
+						
+/*--CLient page version 7 ENDS--*/
+
+
+/*--- single Item page--*/
+.PC_title2{float:left; height:25px; padding:7px 10px 0;}
+	.PC_title2 p{font-size:14px; float:left;}
+.PC_btns{float:left; }
+	.PCb_back {background: url(../images/VoxyCL_gobackbtn.png) no-repeat top left;
+			height:22px; width:77px; display:block; float:left;
+			margin-top:4px;}
+		.PCb_back:hover {background-position: 0 -22px;background-color:transparent;}
+	.PCb_down {background: url(../images/VoxyCL_downloadbtn.png) no-repeat top left;
+			height:22px; width:122px; display:block; float:left;
+			margin-top:4px; margin-left:5px;}
+		.PCb_down:hover {background-position: 0 -22px;background-color:transparent;}
+	.PCb_backIT{background: url(../images/VoxyCL_backIT.png) no-repeat top left;
+			height:22px; width:138px; display:block; float:left;
+			margin-top:4px; margin-left:5px;}
+		.PCb_backIT:hover {background-position: 0 -22px;background-color:transparent;}
+.PC_t3 {float:left;height:25px;padding:7px 10px 0;}
+	.PC_t3 p{font-size:14px; color:#919090;}
+.PC_img{text-align:center; padding:25px 15px 25px 20px;}
+	p.voxNote {font-size:14px;padding-top:15px;}
+	
+	/*--feedback section--*/
+	#PC_feeder{background:#e2e1e1 url(../images/voxyClient_grad.png) repeat-x bottom left;
+			border-top:1px solid #b9b8b8;
+			height:195px; padding:25px 80px 20px;}
+	#PC_feeder2{background:#e2e1e1 url(../images/voxyClient_grad.png) repeat-x bottom left;
+			border-top:1px solid #b9b8b8;
+			height:195px; padding:25px 80px 20px 25px;}
+		.PCF_left{width:500px; float:left;}
+		.PCF_right{width:250px; float:left;padding-left:15px;}
+	
+		/*--left side--*/
+			p.PCF_h1 {background: url(../images/VX_feed.png) no-repeat center left;
+					font-size:24px; font-weight:bold; letter-spacing:-1px;
+					padding-left:38px;}
+			.feedtx {padding-left:3px; background-color:#ffffff; 
+					margin-top:8px;
+					border:1px solid #b9b8b8;}
+			.feeddt{font-size:14px;}/*-already left feedback--*/
+			
+				textarea#txtFd {border:none; width:490px;}
+			button#Feedbtn {background: url(../images/VoxyCL_feedbtn.png) no-repeat top left;
+				height:22px; width:122px; display:block;
+				border:none;cursor:pointer;
+				margin-top:5px;}
+			button#Feedbtn:hover {background-position: 0 -22px;}
+		
+		/*--right side--*/
+			p.PCR_h1 {font-size:24px; font-weight:bold; 
+					letter-spacing:-1px;
+					padding-bottom:5px;}
+			p.PCR_h2{font-size:12px; color:#918f8f;}
+			.PCR_h3 {font-size:14px;padding-top:3px;}
+			
+			button#rating {background: url(../images/VoxyCL_ratebtn.png) no-repeat top left;
+				height:22px; width:122px; display:block;
+				border:none;cursor:pointer;
+				margin-top:5px;}
+			button#rating:hover {background-position: 0 -22px;}
+			
+			/*--- single item ratings--*/
+				#rg7 {height:18px;width:250px;}
+					p.indRtxt{float:left;}
+				#rg7 p.indRate{background: url(../images/voxyClient_rating.png) no-repeat top left;
+						height: 16px; width:97px; float:left;
+						margin-right:5px;}
+					#rg7 p.Rate1{background-position:0 0;}
+					#rg7 p.Rate2{background-position:0 -16px;}
+					#rg7 p.Rate3{background-position:0 -32px;}
+					#rg7 p.Rate4{background-position:0 -48px;}
+					#rg7 p.Rate5{background-position:0 -64px;}
+					
+				.rg6{font-size:12px;}
+				.rg5{font-size:12px;}
+
+/*--- Single Item page ENDS--*/
+
+/*--- Iteration SET page--*/
+table#PCI_tb{}
+	p.PCIT_h1{font-size:12px; color:#9f9e9e;}
+	table#PCI_tb img{border:1px solid #bbbbba;}
+
+	table#PCI_tb td {padding:5px 15px;}
+	
+	/*--smaller rating--*/
+	table#PCI_tb p.PCIT_h2 {background:url(../images/VC_rate.png) no-repeat;
+			height:10px; width:55px;
+			margin-top:3px;}
+		table#PCI_tb p.Rate1{background-position:0 0;}
+		table#PCI_tb p.Rate2{background-position:0 -10px;}
+		table#PCI_tb p.Rate3{background-position:0 -20px;}
+		table#PCI_tb p.Rate4{background-position:0 -30px;}
+		table#PCI_tb p.Rate5{background-position:0 -40px;}
+			
+/*--- Iteration SET page ENDS--*/
+
+/*--- CLients Admin Section--*/
+
+body#CL_adm {margin:0; padding:0; font-family:Arial;font-size:12px;}
+#form03 {border: 1px solid #606060; padding:10px; width:500px;}
+table td, table th{vertical-align:top;text-align:left;font-size:12px;}
+table.subtb {border:1px solid #666666;}
+
+table.cltb_034 th{text-align:left;}
+	table tr.cltb_34_head th{border-bottom:1px solid #606060;}
+	table tr.cltb_34_head td{border-bottom:1px solid #606060;}
+table#maintb tr#editting_tb {background-color:#109ccf; color:#ffffff;}
+table#maintb {border:none;}
+table#maintb tr#editting_02{padding:8px;}
+table#tb76 input{width:300px;}
+	table#tb76 input#rt_83, table#tb76 input#rt_83a{width:20px;}
+
+p.subpgT_1{font-size:18px;padding:0; margin:0;}
+.subtb_head{font-size:14px; padding:3px;
+		margin-top:5px; width:600px;
+		background-color:#109CCF; color:#ffffff;}
+
+p.no_files{width:600px; background-color:#cbcbcb;
+		color:#000000;
+		padding:3px;
+		margin-top:5px;}
+.clientPG{padding-bottom:10px; border-bottom:1px solid #606060;
+		margin-bottom:15px;
+		border-top:1px solid #606060;}
+/*-- Clients Admin section ENDS--*/

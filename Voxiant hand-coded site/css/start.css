@@ -1,0 +1,16 @@
+
+li.start a{background-position: -348px -102px !important;}
+
+/*---FONTS USED IN service page---*/
+/*---------------------------------*/
+#next p {color:#404040;}
+p.pg_title {font-size:30px; font-weight:bold; 
+	padding-bottom:5px;}
+	
+#low_mid {background-color:#F4FBFE; padding-top:40px;}
+
+/*------------------------------------------------*/
+/*---INTRO Section height---*/
+#intro {height:220px;}
+	#next {padding-bottom:50px;}
+

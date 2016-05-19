@@ -1,0 +1,92 @@
+
+li.services a{background-position: -214px -102px !important;}
+
+/*---FONTS USED IN service page---*/
+/*---------------------------------*/
+	p.process_txt {font-size:14px; 
+		padding-top:5px; color:#404040;
+		line-height:20px;}
+	h2 {color:#404040; font-size:20px; 
+		font-weight:bold; letter-spacing:-1px;}
+	h2.pg3 {font-size:30px; }
+		
+	p.pg_title {font-size:48px; color:#404040; font-weight:bold; padding-bottom:15px;}
+	p.learnm_head {font-size:48px; font-weight:bold; color:#0e99cc;}
+	
+		/*---- EXPANDED SECTION---*/
+		#web_pros h2, #gra_pros h2{color:#ffffff; font-size:22px; }
+		#web_pros p.process_txt, #gra_pros p.process_txt {color:#daf0f9;} 
+
+p.learnm_txt {font-size:14px; color:#404040;
+	background: url(../images/hori_line.png) bottom left no-repeat;
+	padding-bottom:10px;}
+	p.learnm_txt span {font-weight:bold; color:#0e99cc}
+	
+#int_RHS b {color:#10669D;}
+
+#learnMore a {font-size:30px; color:#95ba1d;}
+	#learnMore a:hover {background-color:#95ba1d; color:#ffffff;}
+	
+/*------------------------------------------------*/
+/*---INTRO Section height---*/
+
+#intro {height:250px;}
+	#int_RHS {padding:75px 0 0 30px; width:350px;;}
+	
+/*-- services and the process selection--*/
+a.subserv {background: url(../images/services_subpg.png) no-repeat top left;
+	display:block; float:left;height:26px;}
+	a.procs {background-position: -151px 0; width:102px;}
+		a.foc_procs {background-position: -151px -26px; width:102px;}
+	a.serv {background-position: 0 0; width:151px;}
+		a.foc_serv {background-position: 0px -26px; width:151px;}
+
+	/*---LOWER middle content---*/
+#low_mid {background-color:#F4FBFE;padding-top:40px;}
+	#process {height:400px;}
+	.R11 { height: 185px; float:left; width:450px;}
+		.R11right {padding-right:20px;}
+	
+	
+/*--- LOWER LOWER Section--*/
+#low_low {background-color:#F4FBFE;padding-top:40px;}
+	#serv_hold {height:600px;background: url(../images/hori_line.png) bottom left no-repeat;}
+	.R12 { height: 150px; float:left; width:450px;}
+		.R12right {padding-right:20px;}
+		/*-- fonts--*/
+		
+
+/*--learn more section... --*/
+	#learnMore { }
+	#exp_gra {padding-top:5px;background-color:#F4FBFE;}
+		.lm_specif {background: url(../images/hori_line.png) bottom left no-repeat;
+			height:45px; padding-top:5px; }
+			.lm_specif h2 {float:left;}
+			.lm_specif p {float:left; padding:12px 5px 0;}
+				.lm_specif a.slideDw {background: url(../images/learnM_btn.png) no-repeat top left;
+					display:block;height:16px; margin-top: 14px;float:left;width:30px;}
+					.lm_specif a.slideDw:hover {background-position: -30px 0;}
+/*----- Expanding section web--*/
+	.expand_sec {background-color:#0e99cc;}
+			#web_pros {height:390px; padding-top:20px;background:  url(../images/hori_line_dark.png) bottom left no-repeat;}
+				
+/*---- Expanding section for Graphics---*/			
+		#gra_pros {height:190px; padding-top:20px;
+			background:  url(../images/hori_line_dark.png) bottom left no-repeat;}
+			
+/*--- images for process---*/
+	#web_pros p.img, #process p.img {background: url(../images/services_process_icons.jpg) no-repeat;
+		height: 119px; margin:5px 10px 0 0;float:left;width:125px; border:2px solid #ffffff;}
+	
+		.R11 .active {float:left; width:310px;}
+		#process p.R01 {background-position: 0 0;}
+		#process p.R02 {background-position: -125px 0;}
+		#process p.R03 {background-position: -250px 0;}
+		#process p.R04 {background-position: -375px 0;}
+		#web_pros p.R05 {background-position: 0 -120px;}	
+		#web_pros p.R06{background-position: -125px -120px;;}		
+		#web_pros p.R07{background-position: -250px -120px;}
+		#web_pros p.R08{background-position: -375px -120px;}
+
+	
+		

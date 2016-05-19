@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<cu3er>
+	<settings>
+		<!-- Description-->
+		<description>
+			<defaults
+				round_corners="0, 0, 0, 0"
+				 
+				heading_font="Arial"
+				heading_text_size="22"
+				heading_text_color="0xFFFFFF"          
+				heading_text_margin="10, 0, 0,10"  
+				 
+				paragraph_font="Arial"
+				paragraph_text_size="12"
+				paragraph_text_color="0x000000"
+				paragraph_text_margin="10, 0, 0, 10"       
+				/>
+				<tweenIn tint="0x000000"  x="100" y="200" alpha="0.8" width="500" height="30" />
+				<tweenOut time=".5" x="600" />
+				<tweenOver tint="0xCAEA15" alpha="1.0" />
+		</description>
+		
+		<auto_play>
+			<defaults symbol="circular" time="7" />
+			<tweenIn x="875" y="50" width="35" height="35" tint="0xFFFFFF" />
+		</auto_play>
+		
+    	<prev_button>
+			<defaults round_corners="5,5,5,5"/>
+			<tweenOver tint="0xFFFFFF" scaleX="1.1" scaleY="1.1"/>
+			<tweenOut tint="0x000000" />
+		</prev_button>
+		
+    	<prev_symbol>
+			<defaults type="1"/>
+			<tweenOver tint="0x000000" />			
+		</prev_symbol>
+		
+    	<next_button>
+			<defaults round_corners="5,5,5,5"/>			
+			<tweenOver tint="0xFFFFFF"  scaleX="1.1" scaleY="1.1"/>
+			<tweenOut tint="0x000000" />
+		</next_button>
+		
+    	<next_symbol>
+			<defaults type="1"/>
+			<tweenOver tint="0x000000" />
+		</next_symbol>	
+			
+	</settings>    
+
+	<slides>
+	
+        
+		
+		<transition num="4" slicing="vertical" direction="left"/>
+		<slide>
+       		<url>images/Image_slide/img_slide_010.jpg</url>
+        </slide>
+		<!-- changing transition between first & second slide -->
+		<transition num="6" direction="right" shader="flat" />
+		<slide>
+            <url>images/Image_slide/slide_03.jpg</url>
+        </slide>
+		<transition num="4" slicing="horizontal" direction="down"/>
+		<slide>
+       		<url>images/Image_slide/img_slide_fb.jpg</url>
+        </slide>
+		<!-- changing transition between second & third slide -->
+		<transition num="6" slicing="vertical" direction="right"/>
+		<slide>
+       		<url>images/Image_slide/slide_07.jpg</url>
+        </slide> 
+        <!-- changing transition between third & fourth slide -->
+		<transition num="4" slicing="horizontal" direction="down"/>
+		<slide>
+       		<url>images/Image_slide/img_slide_011.jpg</url>
+        </slide>
+		<!-- changing transition between 5th 6th slide -->
+		<transition num="6" slicing="vertical" direction="left"/>
+		<slide>
+            <url>images/Image_slide/slide_01.jpg</url>
+        </slide>
+				
+	</slides>
+</cu3er>
+

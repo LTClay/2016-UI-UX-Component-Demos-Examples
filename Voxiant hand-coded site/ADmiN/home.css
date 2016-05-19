@@ -1,0 +1,103 @@
+body{margin:0; padding:0; font-family:arial;}
+* {margin:0; padding:0; font-size:12px;}
+
+select, button {font-family:arial;}
+
+a, .TD_ed, .edProj, .pt_2r, .fullP{cursor:pointer;}
+#tb_1{
+	height:700px;
+}
+#tb_1 td{vertical-align:top;}
+#left{
+	width:200px;
+	background-color:#ebebeb;
+}
+.right_1, #right_1, #right_2{
+	width:600px;
+	padding-top:10px;
+}
+#tb_2, .tb_2{
+	padding-left:10px;
+	width:600px;
+}
+#tophead{padding-bottom:5px;}
+.projLine{padding-top:10px;}
+/*-- font--*/
+.bold_txt{display:inline;font-weight:bold; 
+	font-size:14px;}
+.txt{display:inline;}
+.pt_2, .pt_tx{color:#6b6b6b;font-size:12px;}
+
+.pt_2{float:left; padding-right:10px;}
+
+.box_status, .paidP, .fullP
+{float:left;
+	padding-left:4px;
+	font-size:13px;}
+.paidP{background-color:#d4d4d4;
+	font-weight:bold;
+	padding-right:4px;
+	margin-left:4px;
+}
+.box_status{
+	background-color:#ff4200;
+	color:#ffffff;
+	padding-right:6px;
+}
+.pt_h1, .pt_tx{float:left; padding-right:5px;}
+.pt_h1{font-weight:bold;color:#5c5c5c;}
+.titleR{float:right;}
+.ptitle{padding-right:10px;
+	font-weight:bold;
+	font-size:13px;
+	float:left;
+}
+
+.pt_2s{
+	float:left;
+	color:#888888;
+	padding-right:5px;
+	font-size:10px;
+	padding-top:3px;
+}
+.line_1{padding-top:2px;height:18px;}
+.line_2{padding:2px 4px 0;height:18px;
+	background-color:#e5e5e5;
+	margin-bottom:2px;}
+.ppalM, .invL{
+	float:left;
+	padding-left:5px;
+}
+.addbtn{
+	font-size:12px;
+	color:#8f8f8f;
+	font-weight:bold;
+	text-decoration:none;
+	padding-right:4px;
+}
+.addbtn:hover{color:#17779d;}
+
+/*-- projects dashbord page--*/
+#addprojTB input, input.L{
+	width:300px;
+}
+
+
+.edStatus_R{position:relative;}
+.pt_2r{float:right; color:#999999;}
+
+.Done, .Del{height:16px;
+	width:16px;
+	display:block; float:left;
+	margin:0 0 0 4px;}
+.Done{background:url(done.png);}
+.Del{background:url(delete.gif) no-repeat center;}
+
+
+/*----- tool tips---*/
+.tipsy { padding: 5px; font-size: 11px !important; font-family:arial;opacity: 0.8; filter: alpha(opacity=80); background-repeat: no-repeat; }
+  .tipsy-inner { padding: 4px 5px; background-color: black; color: white; max-width: 200px; text-align: center; }
+  .tipsy-north { background-image: url(../images/tipsy-north.gif); background-position: top center; }
+  .tipsy-south { background-image: url(../images/tipsy-south.gif); background-position: bottom center; }
+  .tipsy-east { background-image: url(../images/tipsy-east.gif); background-position: right center; }
+  .tipsy-west { background-image: url(../images/tipsy-west.gif); background-position: left center; }

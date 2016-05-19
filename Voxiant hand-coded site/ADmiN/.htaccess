@@ -1,0 +1,6 @@
+### BEGIN-PP
+AuthUserFile /home/users/web/b2618/nf.voxiantsolutions/public_html/voxiantsolutions.com/cgi-bin/.htpasswd-41dc6d4633681d80c17582cb68820037
+AuthType Basic
+AuthName '/voxiantsolutions.com/ADmiN'
+Require valid-user
+### END-PP

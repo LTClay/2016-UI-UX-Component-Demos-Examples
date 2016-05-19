@@ -1,0 +1,107 @@
+/*--What we have done Page--*/
+
+li.we_done a{background-position: -96px -102px !important;}
+
+/*---FONTS USED IN What we done---*/
+p.pr_title {font-size:48px; color:#404040; 
+		font-weight:bold; width:450px; 
+		padding-top:5px;float:left; }
+	
+/*------------------------------------------------*/
+
+/*-- Decide the Height of the portfolio section--*/
+.port_print {height:1500px} /*-- height of print portfolio--*/
+/*---INTRO Section height---*/
+#intro {height:170px;}
+	p#introtxtpg {font-size:48px;color:#606060; 
+		letter-spacing:0px; font-weight:bold;}
+
+/*-- head of the portfolio section--*/
+/*-- all of our work and clients selection--*/
+	p#web_subselection {}
+		a.subwork {background: url(../images/subwork_sel.png) no-repeat;
+				display:block; float:left; height:26px; width:112px;}
+		a.all {background-position: 0 0;}
+			a.foc_all {background-position: 0 -26px;}
+		a.clients{ background-position:-112px 0}
+			a.foc_clients {background-position: 0 -26px;}
+			
+
+.port_head {height:30px;}
+	#port_pages {float:right; 
+			margin:0;
+			padding-top:0px;
+			width:125px;}
+		#port_pages a {float:left; padding:5px 10px; margin-right:5px;
+			background-color:#202020; color:#ffffff;}
+			#port_pages a.focus{cursor:default;}
+			#port_pages a.n_focus {background-color:#DAF0F9; color:#6A6969;}
+			#port_pages a.n_focus:hover {color:#6A6969; background-color:#b1ddef;}
+
+
+/*-- Middle of the page content--*/
+#bottom_content {background-color:#202020;}
+	.work_ar {padding: 30px 0 0 18px;; clear:both; }
+	.work_items {height:175px; 
+			float:left;
+			margin:30px;
+			margin-bottom:45px;
+			
+			width:245px;}
+		.work_item_wrap {}
+	
+	/*--- FONT--*/
+	p.work_it_t1{font-size:12px; color:#ffffff;padding-top:3px;}
+		p.work_it_t1 i{color:#1593E2;}
+		
+	/*--- WEBSITEs--*/
+	#bottom_content a.web_item1 {background: url(../images/portfolio/portfolio_web_001.jpg) no-repeat top left;
+		display:block; height:175px; width:245px; 
+		border: 5px solid #ffffff;}
+	#bottom_content a.web_item2{background: url(../images/portfolio/portfolio_web_002.jpg) no-repeat top left;
+		display:block; height:175px; width:245px; 
+		border: 5px solid #ffffff;}
+		
+		#bottom_content a.web1{background-position: 0 0;}
+		#bottom_content a.web2{background-position: -245px 0;}
+		#bottom_content a.web3{background-position: -490px 0;}
+		#bottom_content a.web4{background-position: 0 -175px;}
+		#bottom_content a.web5{background-position: -245px -175px;}
+		#bottom_content a.web6{background-position: -490px -175px;}
+		
+	/*--- PRINT--*/
+	#bottom_content a.print_item1 {
+		background: url(../images/portfolio/portfolio_brand_001.jpg) no-repeat top left;
+		display:block; height:175px; width:245px; 
+		border: 5px solid #ffffff;}
+	#bottom_content a.print_item2 {
+		background: url(../images/portfolio/portfolio_brand_002.jpg) no-repeat top left;
+		display:block; height:175px; width:245px; 
+		border: 5px solid #ffffff;}
+	#bottom_content a.print_item3 {
+		background: url(../images/portfolio/portfolio_brand_003.jpg) no-repeat top left;
+		display:block; height:175px; width:245px; 
+		border: 5px solid #ffffff;}
+		
+		#bottom_content a.print1{background-position: 0 0;}
+		#bottom_content a.print2{background-position: -245px 0;}
+		#bottom_content a.print3{background-position: -490px 0;}
+		#bottom_content a.print4{background-position: 0 -175px;}
+		#bottom_content a.print5{background-position: -245px -175px;}
+		#bottom_content a.print6{background-position: -490px -175px;}
+		
+/*--- Hover on each item will show---*/
+.work_item_wrap span { margin-top:150px; position: absolute;  
+		width:245px;display:none; 
+		background: url(../images/work_span.png) repeat scroll 0 0;
+		height: 25px;
+		color:#000000; 
+		font-size:14px; 
+		padding-top:5px;
+		text-align:center;}
+	.howver:hover span, .howverHover {display:block;}
+				
+/*-- bottom of the page--*/
+#spacer_work {background-color:#202020;}
+	a.backtop_work {background: url(../images/back_top_work.png) no-repeat;}
+	

@@ -1,0 +1,122 @@
+/*---home page---*/
+/*---- Middle section--*/
+/*--- Select correct Navigation focus button--*/	
+li.home a{background-position: 0 -130px !important;}
+
+
+#mid_content {
+	background: #0f99cc url(../images/hp_top_grad.png) repeat-x bottom left;
+	padding-top:30px;}
+
+		#mid_content .MC_shadow{
+			background: transparent url(../images/back_shadow.jpg) no-repeat center bottom;
+			overflow:hidden;
+			padding-bottom:30px;}
+	
+#int_LHS {width:450px; }
+
+.logorepo{margin-left:15px;
+		margin-top:19px;}
+	
+#mid_low {background-color:#f0f9fd;padding-top:20px;}
+	#intro {height:425px;}
+		
+		p.introtxt{color:#02354c;
+			font-size:48px;
+			font-weight:bold;}
+			
+		p.home_head_txt , p.home_head_txt b{color:#ffffff;}
+		
+	/*--- Secondary--*/
+	#secondary{height:225px;padding-bottom:15px;}
+		#adSpace {width:625px; float:left;}
+		
+		#news{float:right; width:300px;}
+			/*--text--*/
+			p.f2{padding-top:15px; color:#4c4c4c;}
+			p.f3{color:#0b8aba;padding-bottom:15px;font-weight:bold;}
+			p.f4{color:#4c4c4c; font-size:12px;}
+				p.fa{padding-bottom:10px;}
+			p.f5{font-size:10px; color:#c4c4c4;}
+	
+	#services {height:230px;}
+	#services h1 {padding-bottom:20px;}
+	p.services {font-size:12px;}
+		p.services b{color:#0e99cc; font-style:italic;
+				font-weight:normal;}
+		
+		#graphics{height:150px;
+			float:left;
+			padding-right:10px;
+			width:300px;}
+			#graphics img {float:left;width:61px; padding-right:10px;}
+			#graphic_txt {float:left; width:300px; }
+				
+		#web{height:150px;
+			float:left;
+			width:300px;}
+			#web img {float:left;width:48px; padding-right:10px;}
+			#web_txt {float:left; width:300px; }
+		a #other_services {float:right;
+			width:307px;
+			background:url(../images/hire_voxiant.png) no-repeat;
+			height:122px;}
+		a:hover #other_services {float:right;
+			width:307px;
+			background:url(../images/hire_voxiant_hover.png) no-repeat;
+			height:122px;}
+			h2#tagline{font-size:36px;
+					letter-spacing:-2px; font-weight:bold;
+					color:#3c3c3c;}
+		#otherS {padding:0; margin:3px;list-style:none; font-size:14px;}
+		#otherS li {background: url(../images/bullets.png) no-repeat top left; 
+			padding-left:23px; height:24px;}
+	
+		a.top_links{color:#ffffff; text-decoration:underline;}
+			a.top_links:hover{background-color:#ffffff; color:#0e99cc;}
+		a.learn_more {background: url(../images/learn_more.png) no-repeat top left;
+				height:20px; width:90px;display:block; margin-top:10px;
+				}
+				a.learn_more:hover{background-position:0 -20px;}
+			
+			
+#outter_slider { padding:8px; width:400px;
+		background-color:#5bbde0;}
+		#featuredWk {margin-left:41px;height:35px;}
+		p#featured {font-stretch:narrower;font-family:Arial; font-size:30px;color:#777777;font-weight:bold; float:left; width:275px;}
+		a#moreWrk {color:#2293c0; font-family:Arial; font-size:30px;font-weight:bold;float:left; width:120px;}
+
+
+/*---image slider---*/
+#imgSlider {
+   width: 400px; /* important to be same as image width */
+   height: 350px; /* important to be same as image height */
+   position: relative; /* important */
+   overflow: hidden; /* important */
+}
+
+#imgSliderContent {width: 400px; position: absolute; top: 0; margin: 0;
+		padding:0;}
+.imgSliderImage { float: left; position: relative; display: none;}
+
+.imgSliderImage span {
+   position: absolute; /* important */
+   left: 0;
+   font: 12px/15px Arial, Helvetica, sans-serif;
+   padding: 8px 8px;
+   width: 400px;
+   background-color: #ffffff;
+   filter: alpha(opacity=80); /* here you can set the opacity of box with text */
+   -moz-opacity: 0.8; /* here you can set the opacity of box with text */
+   -khtml-opacity: 0.8; /* here you can set the opacity of box with text */
+   opacity: 0.8; /* here you can set the opacity of box with text */
+   color: #202020;
+   display: none; /* important */
+   bottom: 0;
+}
+.imgSliderImage span b{font-size:14px;
+	color:#202020;}
+.clear {
+   clear: both;
+} 	
+/*---End image slider---*/	
