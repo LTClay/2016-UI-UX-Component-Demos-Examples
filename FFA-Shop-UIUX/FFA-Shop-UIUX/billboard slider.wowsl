@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>1.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <Captions>false</Captions>
+            <Controls>true</Controls>
+            <GalleryName>billboard slider</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>slices</ImageEffect>
+            <ImageHeight>486</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink>true</ImageShrink>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/mellow/</ImageTemplate>
+            <ImageTemplateName>Mellow</ImageTemplateName>
+            <ImageWidth>960</ImageWidth>
+            <Images>true</Images>
+            <OneLoop>false</OneLoop>
+            <PublishFileName>C:/Users/lclay/Videos/Documents/Web/Shop/New Site/klewis_FFAShop_20110720B/index.htm</PublishFileName>
+            <PublishIndex>index.htm</PublishIndex>
+            <PublishPath>C:/Users/lclay/Videos/Documents/Web/Shop/New Site/klewis_FFAShop_20110720B</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>page</PublishType>
+            <ShowBullets>true</ShowBullets>
+            <ShowTooltips>true</ShowTooltips>
+            <SlideshowDelay>50</SlideshowDelay>
+            <SlideshowDuration>10</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>true</StopOnHover>
+            <TemplateName>Mellow</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>90</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>177</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>top</TooltipPos>
+            <WatermarkAlign>66</WatermarkAlign>
+            <WatermarkBgColor>#ffffff</WatermarkBgColor>
+            <WatermarkColor>#514242</WatermarkColor>
+            <WatermarkOpacity>80</WatermarkOpacity>
+            <WatermarkText>WOWSlider.com</WatermarkText>
+        </Settings>
+        <Images>
+            <Image>
+                <url>C:\Users\lclay\Videos\Documents\Web\Shop\New Site\images\FFA-Web-Slider-960X485_LookBook.jpg</url>
+                <title>FFA-Web-Slider-960X485_LookBook</title>
+            </Image>
+            <Image>
+                <url>C:\Users\lclay\Videos\Documents\Web\Shop\New Site\images\FFA-Slider-960X485_JacketSale.jpg</url>
+                <title>FFA-Slider-960X485_JacketSale</title>
+            </Image>
+            <Image>
+                <url>C:\Users\lclay\Videos\Documents\Web\Shop\New Site\images\FFA-Slider-960X485_CORE.jpg</url>
+                <title>FFA-Slider-960X485_CORE</title>
+            </Image>
+            <Image>
+                <url>C:\Users\lclay\Videos\Documents\Web\Shop\New Site\images\FFA-Web-Slider-960X485_Personalization.jpg</url>
+                <title>FFA-Web-Slider-960X485_Personalization</title>
+            </Image>
+            <Image>
+                <url>C:\Users\lclay\Videos\Documents\Web\Shop\New Site\images\FFA-Exact-Target-960X485_DesignContest.jpg</url>
+                <title>FFA-Exact-Target-960X485_DesignContest</title>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Shop FFA: Hot New Arrivals Slider</title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <script type="text/javascript">
+        $(document).ready(function(){
+            // option (1 - ON (TRUE), 0 - OFF (FALSE))
+            var autoSlide = 1;
+            var hoverPause = 1;
+            
+            // speed of autoSlide
+            var autoSlide_seconds = 4000; // Variable in milliseconds, not seconds
+            
+            /* move the last list item before the first item. The purpose of this is if the user clicks to slide left he will be able to see the last item.*/
+            $('#carouselList li:first').before($('#carouselList li:last'));
+            
+            // check if auto sliding is enabled
+            if(autoSlide ==1){
+                /* set the interval(loop) to call the function slide with option 'right'
+                  and set the interval time to the variable declared above */
+                var timer = setInterval('slide("right")', autoSlide_seconds);
+                
+                /* change the value of our hidden field that holds info about the interval, setting it to the number of milliseconds declared above */
+                $('#hidden_auto_slide_seconds').val(autoSlide_seconds);
+            }
+            
+            // check if hoverPause is enabled
+            if(hoverPause ==1){
+                // when hovered over the list
+                $('#carouselList').hover(function(){
+                    // stop the interval
+                    clearInterval(timer);
+                }, function(){
+                    // and when mouseout start it again
+                    timer = setInterval('slide("right")', autoSlide_seconds);
+                });
+            }
+        }); // End of Document Ready
+        
+        // Funcitons below
+        
+        // slide function
+        function slide(where){
+            // get the item width
+            var itemWidth = $('#carouselList li').outerWidth() + 10;
+            
+            /* using a if statement and the where variable check we will check where the user wants to slide (left or right) */
+            if(where == 'left'){
+                // calculating the new left intdent of the unordered list (ul) for the left sliding
+                var leftIndent = parseInt($('#carouselList').css('left')) + itemWidth;
+            } else{
+                // calculating the new left intdent of the unordered list (ul) for the right sliding
+                var leftIndent = parseInt($('#carouselList').css('left')) - itemWidth;
+            }
+            
+            // make the sliding effect using jQuery's animate function
+            $('#carouselList:not(:animated)').animate({'left' : leftIndent}, 500, function(){
+                /* when the animation finished use the if statement again, and make an illusision of infinity by chaning place of the last or first item */
+                if(where == 'left'){
+                    // and if it slided to left we put the last item before the first item
+                    $('#carouselList li:first').before($('#carouselList li:last'));
+                } else{
+                    // and if it slided to right we put the first item after the last item
+                    $('#carouselList li:last').after($('#carouselList li:first'));
+                }
+                
+                // and then just get back the default left indent
+                $('#carouselList').css({'left' : '-160px'});
+            });
+        }
+    </script>
+</head>
+<body>
+    <div id="container">
+        <div id="leftEnd">
+            
+        </div>
+        <div id="leftScroll">
+            <a id="btnLeft" href='javascript:slide("left");'></a>
+        </div><!--End of Left Scrolling Button-->
+            <div id="carousel">
+                <ul id='carouselList'>
+                    <!-- Each list item is 150 pixels wide with 5 pixels margins on each side which adds to 160.  The list item will allow for an image up to 150px wide.  Anything larger will require the dimensions of carousel and carousel list to be changed.  This also would change the total list items available for view inititally.  The initial number of viewable items is 5.  160(150 plus the 5px borders on each side) * 5 = 800px. 800px plus the 40px end and 40 px for the two buttons brings the total width to 880.  Add in the padding for the items and the total width is close to 960, which is the width of the containing page.-->
+                    <li>
+                        <a href='#'><img class='carouselImg' src='images/experienced.jpg'/></a>
+                        <p class='prodTitle'><a href='#'>Item Title</a></p>
+                        <p class='description'>Description</p>
+                        <p class='price'>$Price</p>
+                    </li>                    
+                    <li>
+                        <a href='#'><img class='carouselImg' src='images/nugent.jpg' /></a>
+                        <p class='prodTitle'><a href='#'>Item Title</a></p>
+                        <p class='description'>Description</p>
+                        <p class='price'>$Price</p>
+                    </li>
+                    <li>
+                        <a href='#'><img class='carouselImg' src='images/changes.jpg' /></a>
+                        <p class='prodTitle'><a href='#'>Item Title</a></p>
+                        <p class='description'>Description</p>
+                        <p class='price'>$Price</p>
+                    </li>
+                    <li>
+                        <a href='#'><img class='carouselImg'  src='images/strange.jpg' /></a>
+                        <p class='prodTitle'><a href='#'>Item Title</a></p>
+                        <p class='description'>Description</p>
+                        <p class='price'>$Price</p>
+                    </li>
+                    <li>
+                        <a href='#'><img class='carouselImg' src='images/horizons.jpg' /></a>
+                        <p class='prodTitle'><a href='#'>Item Title</a></p>
+                        <p class='description'>Description</p>
+                        <p class='price'>$Price</p>
+                    </li>
+
+                    <li>
+                        <a href='#'><img class='carouselImg' src='images/evolver.jpg' /></a>
+                        <p class='prodTitle'><a href='#'>Item Title</a></p>
+                        <p class='description'>Description</p>
+                        <p class='price'>$Price</p>
+                    </li>
+                    <li>
+                        <a href='#'><img class='carouselImg' src='images/monument.jpg' /></a>
+                        <p class='prodTitle'><a href='#'>Monument</a></p>
+                        <p class='description'>Description</p>
+                        <p class='price'>$Price</p>
+                    </li>                    
+                </ul>
+            </div><!-- End of Carousel-->
+        <div id="rightScroll">
+            <a id="btnRight" href='javascript:slide("right");'></a>
+        </div>
+        <input type="hidden" id="hidden_auto_slide_seconds" value=0 />
+    </div><!--End of Container-->
+</body>
+</html>

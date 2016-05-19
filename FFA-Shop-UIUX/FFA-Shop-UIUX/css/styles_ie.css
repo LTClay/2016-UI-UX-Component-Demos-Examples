@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+.box-signuptoday form input {
+line-height:25px;
+padding-left:5px;
+}
+
+.content-sub {
+margin:0px auto;
+/*width:725px;*/
+width:960px;
+font:normal 12px arial;
+border-top:solid 1px #184D7F;
+position:relative;
+top:5px;
+}
