@@ -1,0 +1,325 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #e81c33;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #e81c33;
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 700;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #666;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #666;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #666;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #666;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+p {
+  height: 50px;
+  margin-bottom: 5px;
+  color: #666;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+a {
+  color: #069;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #e81c33;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button.button_yellow {
+  background-color: #f7941d;
+}
+
+.button.button_grey {
+  background-color: #999;
+}
+
+.button.button_blue {
+  background-color: #069;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  max-width: 1240px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.financing-lp-cta-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.financing-lp-cta-box {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.banner {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+.hero-image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.top-brands-header--container {
+  padding: 10px 10px 24px;
+}
+
+.top-brands-col-container {
+  min-height: 300px;
+  padding: 12px;
+}
+
+.top-brands-container-border {
+  border: 1px solid #999;
+}
+
+.topbrands-header-logo {
+  text-align: center;
+}
+
+.topbrands-header-text {
+  padding: 11px 47px;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.topbrands-button-red {
+  display: block;
+  margin: 20px 29px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #e81c3d;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.brandslp-header-line {
+  position: static;
+  left: auto;
+  right: auto;
+  z-index: 2;
+  display: inline;
+  margin-top: 21px;
+  padding-right: 35px;
+  padding-left: 5px;
+  background-color: transparent;
+  font-size: 45px;
+  text-align: center;
+}
+
+.topbrands-lifestyle-img {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.brandslp-header-line-border {
+  margin-top: -20px;
+  border-bottom: 4px solid #999;
+}
+
+.brandslp-featured-brands-section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: #f1f2f2;
+}
+
+.brandslp-featured-brands-col6-container {
+  position: static;
+  display: block;
+  padding: 5px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.featured-brand-logo {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0px;
+  padding-left: 0px;
+  float: none;
+  text-align: center;
+}
+
+.brandslp-featured-logo-breakout {
+  display: block;
+  max-width: 1240px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+html.w-mod-js *[data-ix="onload-cta1-500"] {
+  display: block;
+  opacity: 0;
+}
+
+html.w-mod-js *[data-ix="onload-cta1-1000"] {
+  display: block;
+  opacity: 0;
+}
+
+html.w-mod-js *[data-ix="onload-cta1-1500"] {
+  display: block;
+  opacity: 0;
+}
+
+html.w-mod-js *[data-ix="onload-featured-brands-2000"] {
+  display: block;
+  opacity: 0;
+  -webkit-transform: translate(0px, -300px);
+  -ms-transform: translate(0px, -300px);
+  transform: translate(0px, -300px);
+}
+
+@media (max-width: 991px) {
+  .top-brands-col-container {
+    padding: 5px;
+  }
+  .topbrands-header-text {
+    padding-right: 11px;
+    padding-left: 11px;
+    font-size: 13px;
+    line-height: 21px;
+  }
+  .topbrands-button-red {
+    margin: 11px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .financing-lp-cta-box {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  .topbrands-header-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .topbrands-header-text {
+    padding-right: 51px;
+    padding-left: 51px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .topbrands-button-red {
+    font-size: 25px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 479px) {
+  .button {
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .financing-lp-cta-box {
+    margin-right: 0px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  .topbrands-header-text {
+    padding-right: 14px;
+    padding-left: 14px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+

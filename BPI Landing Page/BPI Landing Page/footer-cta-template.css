@@ -1,0 +1,1173 @@
+.main_row .contentCarouselWidget > .content { max-width:100%;}
+.main_row .contentCarouselWidget .left_espot, .main_row .contentCarouselWidget .left_espot.centered{width:100%;}
+.main-banner-div{max-width:auto;}C
+.titleItems{text-align:center;}
+a:hover{text-decoration:none !important;}
+.footerWrapper{margin:0 !important}
+#contentRecommendationWidget_3_3074457345618259613_3074457345618301110{display:none;}
+#shop-featured-products{margin-bottom:100px;}
+
+.button {
+  display: block;
+  padding: 10px 15px;
+  background-color: #e81c33;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  text-decoration: none;
+}
+C.button.samsung-lp-button-red {
+  display: inline-block;
+  width: 300px;
+  margin: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  background-color: #1b89e0;
+  opacity: 1;
+  -webkit-transition: none 500ms ease;
+  transition: none 500ms ease;
+  text-decoration: none;
+}
+.button.samsung-lp-button-red:hover {
+  opacity: 0.95;
+  text-decoration: none;
+}
+.button.modern-round-btn {
+  display: block;
+  margin: 9px 9px 20px;
+  border-radius: 5px;
+  background-color: #e81c3d;
+  opacity: 1;
+  font-weight: 300;
+  text-decoration: none;
+}
+.button.modern-round-btn:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+.button.tab-feat-btn {
+  position: static;
+  display: block;
+  width: 90%;
+  margin-bottom: 19px;
+  border-radius: 5px;
+  background-color: #e81c3d;
+  font-weight: 300;
+  text-decoration: none;
+}
+.button.tab-feat-btn.ad-banner-btn {
+  width: 300px;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  border: 1px solid white;
+  text-decoration: none;
+}
+.button.tab-feat-btn.ad-banner-btn.footer-left-col {
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-right: 16px;c
+  float: right;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  text-decoration: none;
+}
+.button.tab-feat-btn.ad-banner-btn.footer-left-col:hover {
+  background-color: white;
+  color: #e81c3d;
+  text-decoration: none;
+}
+.button.tab-feat-btn.ad-banner-btn.footer-right-col {
+  margin-right: 20px;
+  margin-left: 20px;
+  float: left;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  text-decoration: none;
+}
+.button.tab-feat-btn.ad-banner-btn.footer-right-col:hover {
+  background-color: white;
+  color: #e81c3d;
+  text-decoration: none;
+}
+.button.tab-feat-btn.cta-ad-banner-btn {
+  margin-top: 13px;
+  margin-bottom: 13px;
+  padding-top: 11px;
+  border: 1px solid white;
+  text-decoration: none;
+}
+.button.explore-tab-btn {
+  display: inline-block;
+  width: 275px;
+  border-radius: 5px;
+  font-weight: 300;
+  text-decoration: none;
+}
+.samsung-lp-header-bg {
+  position: static;
+  width: 100%;
+  margin: 0px auto;
+  padding: 200px 29px 100px 10px;
+  border-bottom: 10px solid #1b89e0;
+  background-image: url('http://hhgregg.scene7.com/is/image/hhgregg/samsung%2Dbrand%2Dlp%2Djumbotron%2Dbkg?scl=1&qlt=90');
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.samsung-lp-col-center {
+  position: static;
+  display: block;
+  max-height: 400px;
+  min-height: 350px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  text-align: center;
+}
+.bosch-lp-cta-text-cta {
+  padding-bottom: 19px;
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 300;
+  text-align: left;
+}
+.bosch-lp-text-div-block {
+  display: inline-block;
+  max-width: 500px;
+  min-width: 400px;
+  padding-top: 66px;
+  padding-bottom: 66px;
+  text-align: left;
+  list-style-type: none;
+}
+.bosch-lp-text-div-block.bosch-lp-div-float-left {
+  float: right;
+}
+.bosch-lp-shopnow-div {
+  /*margin-top: 43px;*/
+  padding-top: 0px;
+  text-align: center;
+}
+.bosch-lp-shopnow-h3 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #e81c3d;
+  font-size: 44px;
+  font-weight: 300;
+}
+.bosch-lp-header-div-blk {
+  width: 710px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.bosch-lp-header-p-text {
+  padding: 20px;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 300;
+}
+.bosch-lp-header-box-col {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+}
+.bosch-lp-cta-banner {
+  display: none;
+}
+.samsung-lp-cta-slider {
+  max-height: 733px;
+}
+.slider-image {
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  text-align: center;
+}
+.slider-image:hover {
+  opacity: 0.95;
+}
+.samsung-cta-slider {
+  height: auto;
+  min-height: 300px;
+}
+.logo-container {
+  border-top: 10px none #f50000;
+}
+.samsung-lp-explore-logo {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.explore-tab {
+  display: inline-block;
+  width: 225px;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #666;
+  color: white;
+  font-size: 19px;
+  font-weight: 300;
+  text-align: center;
+}
+.explore-tab.w--current {
+  display: inline-block;
+  background-color: #e81c3d;
+}
+.samsung-lp-explore-tab-menu {
+  position: static;
+  display: block;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+  text-align: center;
+}
+.samsung-lp-tabpane1 {
+  min-height: 400px;
+  background-color: #eee;
+}
+.samsung-lp-explore-tab-content-container {
+  min-height: 450px;
+}
+.samsung-lp-explore-tab-col {
+  position: static;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  text-align: left;
+}
+.samsung-lp-explore-tab-col.samsung-lp-4door-col-bkg {
+  min-height: auto;
+  padding-bottom: 10px;
+  float: none;
+  background-image: url('http://hhgregg.scene7.com/is/image/hhgregg/featured%2Dtab%2Dcta%2D4door?&scl=1&qlt=90');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.samsung-lp-explore-tab-col.samsung-lp-activewash-col-back {
+  display: block;
+  padding: 9px;
+  background-image: url('http://hhgregg.scene7.com/is/image/hhgregg/featured%2Dtab%2Dcta%2Dactive%2Dwash?scl=1&qlt=90');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.samsung-lp-shop-container {
+  position: static;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 3px;
+  border-top: 10px none #f50000;
+  border-bottom: 10px none #e81c3d;
+  background-image: -webkit-linear-gradient(white 89%, #eaeaea);
+  background-image: linear-gradient(white 89%, #eaeaea);
+}
+.samsung-lp-featured-vid-icon {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 138px 75px;
+  text-align: center;
+}
+.samsung-lp-featured-vid-icon.featured-tab-ctavid-1-bkg {
+  position: static;
+  left: 0px;
+  bottom: 0px;
+  display: block;
+  overflow-x: visible;
+  overflow-y: visible;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 90px;
+  float: none;
+  clear: none;
+  text-align: center;
+}
+.feature-tab1-body-txt {
+  display: block;
+  max-height: 400px;
+  min-height: 125px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  padding: 0px 20px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  text-align: left;
+}
+.samsung-lp-shop-associates-bkg {
+  position: static;
+  left: 0px;
+  top: 32px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  overflow-x: visible;
+  overflow-y: visible;
+  height: 100%;
+  margin-top: 31px;
+  margin-left: 0px;
+  padding-top: 16px;
+  padding-right: 0px;
+  padding-left: 0px;
+  float: left;
+  /*background-image: url('../images/ggi-employee.png');*/
+  background-position: 62px 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.shop-samsung-hhgregg-container {
+  position: static;
+  display: block;
+  max-height: 700px;
+  min-height: 575px;
+  margin-top: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  float: none;
+  border-bottom: 10px solid #e81c3d;
+  background-image: url('http://hhgregg.scene7.com/is/image/hhgregg/hhgregg%2Dassociate?scl=1&qlt=90&$transparent$');
+  background-position: -162px 0px;
+  background-size: auto;
+  background-attachment: scroll;
+  font-family: Roboto, sans-serif;
+}
+.shop-hhgregg-text {
+  margin-top: 12px;
+  margin-bottom: 17px;
+  padding: 10px;
+  direction: ltr;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-indent: 0px;
+  list-style-type: square;
+}
+.tab-container {
+  height: 400px;
+}
+.tab-container.samsung-explore-tab2-bkg {
+  height: 450px;
+  padding-top: 69px;
+  padding-left: 20px;
+  background-image: url('http://hhgregg.scene7.com/is/image/hhgregg/samsung%2Dexperience%2Dtab%2Dkitchen%2Dbkg?scl=1&qlt=90');
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tab-container.explore-samsung-tab3-bkg {
+  min-height: 450px;
+  padding-top: 69px;
+  padding-left: 20px;
+  background-image: url('http://hhgregg.scene7.com/is/image/hhgregg/samsung%2Dexperience%2Dtab%2Dlaundry%2Dbkg?scl=1&qlt=90');
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tab-container.samsung-explore-tab4-bkg {
+  min-height: 450px;
+  padding-top: 69px;
+  padding-left: 20px;
+  background-image: url('http://hhgregg.scene7.com/is/image/hhgregg/samsung%2Dexperience%2Dtab%2Dtv%2Dbkg?scl=1&qlt=90');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.tab-container.samsung-explore-tab5-bkg {
+  min-height: 450px;
+  padding-top: 69px;
+  padding-left: 20px;
+  background-image: url('http://hhgregg.scene7.com/is/image/hhgregg/samsung%2Dexperience%2Dtab%2Delectronics%2Dbkg?scl=1&qlt=90');
+  background-position: 100% 50%;
+  background-size: cover;
+}
+.explore-tab-blk-container {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: rgba(0, 0, 0, 0.29) 0px 0px 18px 0px;
+}
+.explore-tab-cta-p-txt {
+  padding-bottom: 20px;
+  font-size: 18px;
+  line-height: 22px;
+}
+.explore-tab-h2 {
+  margin-top: 0px;
+}
+.samsung-lp-shop-col2 {
+  position: static;
+  left: 11px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0px 0px 6px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 9px 0px;
+}
+.samsung-lp-shop-col2.samsung-lp-shop-col2-tablet {
+  position: static;
+}
+.shop-now-benefits-bullet {
+  padding-bottom: 23px;
+  padding-left: 27px;
+  list-style-type: disc;
+}
+.shop-icons {
+  display: block;
+  margin: 10px;
+  padding: 5px;
+  float: none;
+  border: 1px solid #ccc;
+  border-radius: 18px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 9px 0px;
+  text-align: center;
+}
+.shop-icons.shop-icons-top-left-border {
+  margin-top: -10px;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 1px solid #ccc;
+}
+.shop-icons.shop-icon-topleft {
+  padding: 10px;
+  float: right;
+  border-width: 0px;
+  border-radius: 10px;
+}
+.shop-icons.shop-icon-topleft:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 9px 2px;
+}
+.shop-icons.shop-icon-topright {
+  margin-left: 30px;
+  padding: 10px;
+  float: none;
+  border-width: 0px;
+}
+.shop-icons.shop-icon-topright:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 9px 2px;
+}
+.shop-icons.shop-icon-bottomright {
+  margin-left: 30px;
+  padding: 10px;
+  float: left;
+  border-width: 0px;
+}
+.shop-icons.shop-icon-bottomright:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 9px 2px;
+}
+.shop-icons.shop-icon-bottomleft {
+  padding: 10px;
+  float: right;
+  border-width: 0px;
+}
+.shop-icons.shop-icon-bottomleft:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 9px 2px;
+}
+.col-spacing-zero {
+  position: static;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.samsung-explore-section {
+  border-bottom: 10px none #f7b721;
+}
+.icon-top-left {
+  position: static;
+  display: block;
+  margin-bottom: 30px;
+}
+.padding-10 {
+  display: block;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 34px;
+}
+.shop-samsung-logo-anchor {
+  /*margin-top: 30px;*/
+}
+.explore-tab-tv {
+  position: static;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 87px;
+  text-align: center;
+}
+.explore-tab-video-col {
+  position: static;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.featured-col-spacing {
+  min-height: auto;
+  margin-bottom: 9px;
+  padding: 9px;
+}
+.samsung-featured-tab-description {
+  display: block;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.74);
+}
+.featured-tab-div-top-container {
+  width: 100%;
+  max-height: 600px;
+  min-height: 300px;
+}
+.featured-tab-div-top-container.featured-tab-div-top-bkg1 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('http://hhgregg.scene7.com/is/image/hhgregg/featured%2Dtab%2Dcta%2D4door?&scl=1&qlt=90');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  opacity: 0.95;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  text-align: center;
+}
+.featured-tab-div-top-container.featured-tab-div-top-bkg1:hover {
+  opacity: 0.95;
+}
+.featured-tab-div-top-container.featured-tab-div-top-bkg2 {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('http://hhgregg.scene7.com/is/image/hhgregg/featured%2Dtab%2Dcta%2Dactive%2Dwash?scl=1&qlt=90');
+  background-size: cover;
+  opacity: 0.95;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  text-align: center;
+}
+.featured-tab-div-top-container.featured-tab-div-top-bkg2:hover {
+  opacity: 1;
+}
+.featured-tab-div-top-container.featured-tab-div-top-bkg3 {
+  background-image: url('http://hhgregg.scene7.com/is/image/hhgregg/samsung%2Dsuhd%2Dtv%2Dwall?scl=1&qlt=90');
+  background-position: 50% 50%;
+  background-size: cover;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  text-align: center;
+}
+.featured-tab-div-top-container.featured-tab-div-top-bkg3:hover {
+  opacity: 0.95;
+}
+.featured-tab-div-bottom-container {
+  width: 100%;
+  min-height: 200px;
+  padding: 10px;
+}
+.row-hide {
+  display: none;
+}
+.featured-tab-row-bkg {
+  background-color: white;
+}
+.ad-banner-red {
+  min-height: 150px;
+  background-color: #e81c3d;
+}
+.cta-row-red {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #e81c3d;
+}
+.cta-text-big {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 29px 26px 0px;
+  color: white;
+  font-size: 44px;
+  line-height: 39px;
+}
+.footer-more-shop {
+  background-color: #e81c3d;
+}
+.cta-header-center-big {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.cta-btn-right {
+  text-align: left;
+}
+.cta-banner-txt-big {
+  margin-top: 0px;
+  padding: 23px 34px;
+  color: white;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: left;
+}
+.featured-tab-col-spacing {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.shop-icon.shop-icon-bottomleft {
+  float: right;
+}
+.shop-icon-topleft {
+  float: right;
+}
+.shop-icon-topright {
+  float: left;
+}
+.shop-icon-bottom-right {
+  float: left;
+}
+.cta-hover-panel {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.6));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.6));
+}
+.cta-hover-panel-header {
+  padding: 19px 13px;
+  color: white;
+  font-size: 38px;
+  font-weight: 400;
+}
+.cta-hover-panel-description {
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  text-align: left;
+}
+.cta-banner-btn-container {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.slider-tv-bkg {
+  background-color: black;
+}
+.slider-tv-link {
+  display: block;
+  text-align: center;
+}
+.slider-tv-link:hover {
+  opacity: 0.95;
+}
+.slider-galaxy-background {
+  background-image: url('http://hhgregg.scene7.com/is/image/hhgregg/galaxy%2Dbkg?scl=1&qlt=90');
+  background-repeat: repeat;
+}
+.slider-galaxy-link {
+  display: block;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  text-align: center;
+}
+.slider-galaxy-link:hover {
+  opacity: 0.95;
+}
+.slider-appliances-bkg {
+  background-color: black;
+}
+.slider-appliances-link {
+  display: block;
+  text-align: center;
+}
+.slider-appliances-link:hover {
+  opacity: 0.95;
+}
+html.w-mod-js *[data-ix="load-fade-samsung-logo"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, -75px);
+  -ms-transform: translate(0px, -75px);
+  transform: translate(0px, -75px);
+}
+html.w-mod-js *[data-ix="load-fade-down-titletext"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, -75px);
+  -ms-transform: translate(0px, -75px);
+  transform: translate(0px, -75px);
+}
+html.w-mod-js *[data-ix="load-fade-down-subtitle"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, -75px);
+  -ms-transform: translate(0px, -75px);
+  transform: translate(0px, -75px);
+}
+html.w-mod-js *[data-ix="load-fade-down-header-btns"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, -75px);
+  -ms-transform: translate(0px, -75px);
+  transform: translate(0px, -75px);
+}
+html.w-mod-js *[data-ix="button-pulse"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, -75px);
+  -ms-transform: translate(0px, -75px);
+  transform: translate(0px, -75px);
+}
+html.w-mod-js *[data-ix="scroll-tab-content-fadein-left"] {
+  opacity: 0;
+  -webkit-transform: translate(-200px, 0px);
+  -ms-transform: translate(-200px, 0px);
+  transform: translate(-200px, 0px);
+}
+html.w-mod-js *[data-ix="scroll-tab-content-fadein-right"] {
+  opacity: 0;
+  -webkit-transform: translate(200px, 0px);
+  -ms-transform: translate(200px, 0px);
+  transform: translate(200px, 0px);
+}
+html.w-mod-js *[data-ix="scroll-tabcontent-fadedown-banner"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 100px);
+  -ms-transform: translate(0px, 100px);
+  transform: translate(0px, 100px);
+}
+html.w-mod-js *[data-ix="scroll-tabcontent-fadedown-banner-2"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 100px);
+  -ms-transform: translate(0px, 100px);
+  transform: translate(0px, 100px);
+}
+html.w-mod-js *[data-ix="scroll-tabcontent-fadedown-banner-3"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 100px);
+  -ms-transform: translate(0px, 100px);
+  transform: translate(0px, 100px);
+}
+@media (max-width: 991px) {
+  a {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .button.samsung-lp-button-red {
+    display: inline-block;
+    width: 300px;
+    border-bottom-width: 11px;
+  }
+  .button.modern-round-btn {
+    width: 100%;
+    margin: 0px auto;
+    padding: 7px;
+  }
+  .button.explore-tab-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .samsung-lp-header-bg {
+    min-height: 500px;
+    padding-top: 100px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    border-bottom-style: none;
+    background-position: 99% 50%;
+    background-size: cover;
+  }
+  .samsung-lp-col-center {
+    padding-right: 0px;
+  }
+  .bosch-lp-cta-text-cta {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .bosch-lp-text-div-block.bosch-lp-div-float-left {
+    width: 100%;
+    min-width: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .bosch-lp-mobile-center {
+    font-size: 25px;
+  }
+  .bosch-lp-shopnow-h3 {
+    font-size: 38px;
+  }
+  .bosch-lp-header-div-blk {
+    width: auto;
+    text-align: center;
+  }
+  .bosch-lp-header-p-text {
+    font-size: 23px;
+    line-height: 28px;
+  }
+  .bosch-lp-cta-banner {
+    display: none;
+  }
+  .slider-image {
+    width: auto;
+    height: auto;
+  }
+  .samsung-cta-slider {
+    width: auto;
+    min-height: 260px;
+  }
+  .explore-tab {
+    width: 200px;
+    font-size: 16px;
+    line-height: 10px;
+  }
+  .samsung-lp-tabpane1 {
+    min-height: 550px;
+  }
+  .samsung-lp-featured-vid-icon.featured-tab-ctavid-1-bkg {
+    padding: 75px;
+  }
+  .feature-tab1-body-txt {
+    min-height: 225px;
+    text-align: left;
+  }
+  .shop-samsung-hhgregg-container {
+    position: static;
+    display: block;
+    height: auto;
+    min-height: 1100px;
+    float: none;
+  }
+  .shop-hhgregg-text {
+    text-align: center;
+  }
+  .tab-container.samsung-explore-tab2-bkg {
+    height: auto;
+    max-height: 800px;
+    min-height: 600px;
+  }
+  .tab-container.explore-samsung-tab3-bkg {
+    max-height: 800px;
+    min-height: 600px;
+  }
+  .tab-container.samsung-explore-tab4-bkg {
+    max-height: 800px;
+    min-height: 600px;
+  }
+  .tab-container.samsung-explore-tab5-bkg {
+    height: auto;
+    max-height: 800px;
+    min-height: 600px;
+  }
+  .explore-tab-blk-container {
+    margin-top: 60px;
+  }
+  .explore-tab-cta-p-txt {
+    text-align: center;
+  }
+  .explore-tab-h2 {
+    text-align: center;
+  }
+  .samsung-lp-shop-col2 {
+    position: static;
+    left: auto;
+    right: 15px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 16px;
+  }
+  .samsung-lp-shop-col2.samsung-lp-shop-col2-tablet {
+    margin-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .shop-now-benefits-bullet {
+    padding-right: 225px;
+    padding-left: 225px;
+    text-align: left;
+  }
+  .shop-icons.shop-icon-topleft {
+    position: relative;
+    right: 15px;
+    margin: 3px auto;
+    padding: 0px;
+    float: none;
+  }
+  .shop-icons.shop-icon-topright {
+    margin: 3px auto;
+    padding: 0px;
+    float: none;
+  }
+  .shop-icons.shop-icon-bottomright {
+    margin: 3px auto;
+    padding: 0px;
+    float: none;
+    clear: both;
+  }
+  .shop-icons.shop-icon-bottomleft {
+    position: relative;
+    right: 15px;
+    display: block;
+    margin: 3px auto;
+    padding: 0px;
+    float: none;
+  }
+  .padding-10 {
+    position: static;
+    display: block;
+    overflow-x: visible;
+    overflow-y: visible;
+    min-height: auto;
+    margin: 0px auto 10px;
+    text-align: center;
+  }
+  .explore-tab-tv {
+    padding: 25px;
+  }
+  .why-buy-col-txt-spacing {
+    padding-right: 20px;
+    padding-left: 10px;
+  }
+  .shop-now-tablet-icons-area {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .hide-tablet {
+    display: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .samsung-featured-tab-description {
+    margin-top: -2px;
+  }
+  .cta-text-big {
+    font-size: 37px;
+    line-height: 29px;
+  }
+}
+@media (max-width: 767px) {
+  .button {
+    display: block;
+  }
+  .button.samsung-lp-button-red {
+    width: 100%;
+  }
+  .button.tab-feat-btn.ad-banner-btn.footer-left-col {
+    margin: 20px auto 10px;
+    float: none;
+  }
+  .button.tab-feat-btn.ad-banner-btn.footer-right-col {
+    margin: 10px auto;
+    float: none;
+  }
+  .samsung-lp-header-bg {
+    min-height: 450px;
+    margin-bottom: auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-position: 86% 50%;
+    background-size: auto;
+    background-attachment: fixed;
+  }
+  .samsung-lp-col-center {
+    display: block;
+    min-height: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .bosch-lp-cta-text-cta {
+    text-align: center;
+  }
+  .bosch-lp-text-div-block.bosch-lp-div-float-left {
+    position: relative;
+    bottom: 95px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    float: none;
+    text-align: center;
+  }
+  .bosch-lp-mobile-center {
+    text-align: center;
+  }
+  .bosch-lp-shopnow-h3 {
+    font-size: 28px;
+    line-height: 23px;
+  }
+  .bosch-lp-header-div-blk {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .bosch-lp-header-p-text {
+    font-size: 25px;
+  }
+  .bosch-lp-header-box-col {
+    margin-top: 59px;
+    margin-bottom: 0px;
+  }
+  .bosch-lp-cta-banner {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .samsung-cta-slider {
+    width: 100%;
+    min-height: 200px;
+  }
+  .explore-tab {
+    width: 95%;
+    margin: 3px 0px;
+  }
+  .samsung-lp-featured-vid-icon.featured-tab-ctavid-1-bkg {
+    padding: 72px 208px;
+  }
+  .feature-tab1-body-txt {
+    min-height: auto;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    text-align: center;
+  }
+  .tab-container.samsung-explore-tab4-bkg {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+  }
+  .explore-tab-blk-container {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .shop-now-benefits-bullet {
+    padding-right: 129px;
+    padding-left: 129px;
+  }
+  .explore-tab-tv {
+    display: none;
+  }
+  .cta-btn-right {
+    margin-bottom: 24px;
+  }
+  .cta-banner-txt-big {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+  }
+  .cta-banner-btn-container {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 479px) {
+  h4 {
+    font-size: 14px;
+  }
+  .button {
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .button.samsung-lp-button-red {
+    width: 93%;
+    padding: 10px;
+    clear: none;
+    font-size: 11px;
+  }
+  .samsung-lp-header-bg {
+    min-height: 400px;
+    padding-top: 0px;
+    background-position: 73% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .samsung-lp-col-center {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .bosch-lp-cta-text-cta {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .bosch-lp-text-div-block.bosch-lp-div-float-left {
+    margin-bottom: 0px;
+    padding-top: 34px;
+    padding-bottom: 0px;
+  }
+  .bosch-lp-mobile-center {
+    font-size: 20px;
+  }
+  .bosch-lp-shopnow-div {
+    padding: 10px;
+  }
+  .bosch-lp-shopnow-h3 {
+    font-size: 16px;
+    line-height: 14px;
+  }
+  .bosch-lp-header-div-blk {
+    padding: 25px 9px;
+  }
+  .bosch-lp-header-p-text {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  .bosch-lp-header-logo {
+    width: 100%;
+  }
+  .samsung-lp-cta-slider {
+    height: auto;
+    min-height: auto;
+  }
+  .samsung-cta-slider {
+    display: block;
+    min-height: auto;
+  }
+  .samsung-lp-explore-tab-menu {
+    margin-top: 10px;
+  }
+  .feature-tab1-body-txt {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .tab-container.explore-samsung-tab3-bkg {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .tab-container.samsung-explore-tab4-bkg {
+    max-height: 900px;
+  }
+  .explore-tab-cta-p-txt {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .explore-tab-h2 {
+    font-size: 19px;
+    line-height: 19px;
+  }
+  .shop-now-benefits-bullet {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+  .shop-icons.shop-icon-topleft {
+    right: 5px;
+  }
+  .shop-icons.shop-icon-bottomleft {
+    right: 5px;
+  }
+  .samsung-explore-section {
+    display: block;
+    min-height: auto;
+  }
+}
+
