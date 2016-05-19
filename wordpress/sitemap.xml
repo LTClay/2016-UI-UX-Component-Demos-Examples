@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://leonardclay.com/wordpress/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/2.7.1" --><!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.1.2" --><!-- generated-on="May 24, 2009 3:06 pm" --><!-- Debug: Total comment count: 1 --><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://leonardclay.com/wordpress/</loc>
+		<lastmod>2009-05-24T22:05:58+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings --><!-- Debug: Priority report of postID 23: Comments: 1 of 1 = 1 points -->	<url>
+		<loc>http://leonardclay.com/wordpress/panache-day-spa-2</loc>
+		<lastmod>2009-05-24T22:05:58+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Priority report of postID 21: Comments: 0 of 1 = 0 points -->	<url>
+		<loc>http://leonardclay.com/wordpress/schedulemart</loc>
+		<lastmod>2009-05-24T21:12:06+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://leonardclay.com/wordpress/about</loc>
+		<lastmod>2009-05-24T07:28:51+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://leonardclay.com/wordpress/portfolio</loc>
+		<lastmod>2009-05-16T19:06:59+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://leonardclay.com/wordpress/contact</loc>
+		<lastmod>2009-05-16T19:06:17+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://leonardclay.com/wordpress/services</loc>
+		<lastmod>2009-05-16T19:05:35+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: End Postings --><!-- Debug: Start Custom Pages --><!-- Debug: End Custom Pages --><!-- Debug: Start additional URLs --><!-- Debug: End additional URLs --></urlset>

@@ -1,0 +1,412 @@
+/*  
+Theme Name: Tutorial
+Theme URI: http://www.wpdesigner.com
+Description: This is my theme for a tutorial.
+Version: 1.0
+Author: Small Potato
+Author URI: http://www.wpdesigner.com/
+
+*/
+
+body, h1, h2, h3, h4, h5, h6, address, blockquote, dd, dl, hr, p, form{
+margin: 0;
+padding: 0;
+}
+html{
+		min-height:100%;
+
+}
+
+body{
+		margin: 0;
+		font-family: Arial, Helvetica, Georgia, Sans-serif;
+		font-size:12px;
+		text-align:center;
+		vertical-align:top;
+		background:#ffffff;
+		color:#333333;
+		min-height:100%;
+}
+
+h1{
+		font-family:Georgia, Sans-serif;
+		font-size: 24px;
+		padding:0 0 5px 0;
+		color:#E60000;
+		border-bottom:dotted #CCCCCC thin;
+		text-decoration:none;
+}
+
+img {border:none; padding:3px;}
+
+#container #container_wrapper h3 {
+		border-bottom:#e60000 dotted thin;
+		padding:15px 5px 0 5px;
+
+}
+
+#container #container_wrapper h2 {
+		padding:10px 5px 0 5px;
+
+}
+
+#container #container_wrapper a h3{
+		color:#e60000;
+		border-width:none;
+
+}
+
+#container #container_wrapper a h2{
+		color:#e60000;
+		border-width:none;
+
+}
+a:link, a:visited{
+		text-decoration: none;
+		color:#E60000;
+}
+
+a:hover{
+		text-decoration: underline;
+}
+
+p{
+		padding: 10px 0 0 0;
+		color:#333333;
+}
+
+
+#main{
+		padding:0;
+		margin:0;
+		height:100%;
+}
+
+#wrapper{
+		margin:0 auto 0 auto;
+		width: 840px;
+		text-align: left;
+		height:100%;
+}
+
+#topbar{
+		background-color:#000000;
+		height:25px;
+}
+
+#topbarwrapper{
+		margin:0 auto 0 auto;
+		width: 840px;
+		min-height:100%
+}
+
+#topbarleft{
+		float:left;
+		color:#FFFFFF;
+		text-align: left;
+		vertical-align:middle;
+		padding:5px 0 0 0;
+		font-size:9px;
+}
+
+#topbarright{
+		float:right;
+		color:#FFFFFF;
+		text-align: right;
+		vertical-align:middle;
+		padding:5px 0 0 0;
+		font-size:9px;
+}
+
+
+#navbarwrapper{
+		margin:0 auto 0 auto;
+		width: 840px;
+}
+
+#navbar{
+		background-image:url(images/topnavbar_bg.jpg);
+		background-repeat:repeat-x;
+		height:61px;
+}
+
+#navbarleft{
+		float:left;
+		color:#FFFFFF;
+		width:450px;
+		text-align:left;
+		padding:13px 0 0 0;
+}
+#navbarright{
+		float:right;
+		color:#FFFFFF;
+		width:225px;
+		text-align:center;
+		padding:10px 0 0 0;
+}
+
+#navmenu ul {margin: 0; padding: 0; 
+	list-style-type: none; list-style-image: none; }
+#navmenu li {display: inline; border-right:#FFFFFF dotted thin; font-size:14px;}
+#navmenu ul li a {text-decoration:none;  margin: 4px;
+	padding: 2px 10px 2px 10px; color: white;}
+#navmenu ul li a:hover {color: white;
+	background: red; }
+
+#headerwrapper{
+		margin:0 auto 0 auto;
+		width: 840px;
+		text-align: left;
+		height:69px;
+
+}
+
+#header{
+		height:70px;
+		background-image:url(images/topbar_bg.jpg);
+		background-repeat:repeat-x;
+}
+
+#header_logo{
+		background-image:url(images/logo.jpg);
+		background-repeat:no-repeat;
+		background-position:bottom;		
+		height:70px;
+		float:left;
+		width: 775px;
+		
+}
+
+#header h1{
+		text-decoration:none;
+		color:#E60000;
+}
+
+#container{
+		background-image:url(images/contentmain_bg.jpg);
+		background-repeat:repeat-x;
+		background-color:#292929;
+		background-position:top;
+		padding: 15px 0 20px 0;
+		min-height:100%;
+}
+
+#container_main{
+		background-image:url(images/contentmain_bg.jpg);
+		background-repeat:repeat-x;
+		background-color:#292929;
+		height:950px;
+		background-position:top;
+		position:relative;
+		padding: 15px 0 40px 0;
+}
+
+#container_wrapper
+{
+		margin: 0 auto 20px auto;
+		width: 840px;
+		text-align: left;
+		background-color:white;
+		min-height:95%;
+		max-height:100%;
+		   -moz-border-radius: 20px;
+   -khtml-border-radius: 20x;
+   -webkit-border-radius: 20px;
+		border:#bfbfbf thin solid;
+		padding:25px 25px 15px 25px;
+}
+
+#container_content {
+		width:500px;
+		float:left;
+		padding:20px;
+
+}
+
+#container #container_wrapper #container_content h1{
+		color:ffffff;
+
+}
+
+#footer{
+		background-color:#000000;
+		padding: 0 auto 0 auto;
+		text-align:center;
+		height:225px;
+		border-top:#E60000 thick solid;
+		clear:both;
+}
+
+#footer_wrapper
+{
+		margin:15px auto 15px auto;
+		width: 740px;
+		text-align: left;
+		list-style-type:none;
+}
+
+#footer p{
+		line-height:18px;
+		color:#FFFFFF;
+}
+
+#footer_wrapper h2{
+		color:#E60000;
+		font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+#footer_wrapper ul li{
+		color:#ffffff;
+		list-style-type:square;
+		text-decoration:none;
+}
+
+#footer_wrapper a{
+		color:#ffffff;
+		text-decoration:none;
+}
+#footer_wrapper a:hover{
+		color:#e60000;
+		text-decoration:underline;
+}
+
+#footerlogo{
+		width:159px;
+		height:46px;
+		background-image:url(images/footer_logo.jpg);
+}
+
+#searchtext {
+		background-image:url(images/searchbox.jpg);
+		width:225px;
+		height:21px;
+}
+
+#sidebar {
+		float:right;
+		width:285px;
+		margin:20px 0 0 10px;
+		
+}
+
+#searchform {
+		text-align:center;
+}
+
+#sidebar ul li{
+		list-style-type:square; 
+		line-height:16px;
+		padding: 0 0 10px 15px;
+		
+}
+
+#sidebar ul{
+		list-style:square;
+		color:#e60000;
+}
+
+#sidebar ul li a{
+		list-style-type:square; 
+		line-height:16px; 
+		color:#666666;
+		text-decoration:none;
+}
+#sidebar ul li a:hover{
+
+		color:#E60000;
+		text-decoration:none
+}
+
+#sidebar ul li h2{
+		color:E60000;
+		font-family:Georgia, Sans-serif;
+		font-size: 24px;
+		padding:0 0 10px 0;
+		border-bottom:dotted #CCCCCC thin;
+}
+
+#sidebar ul ul li{
+		padding:0;
+		line-height: 24px;
+}
+		
+#sidebar ul li#calendar table#wp-calendar{
+		width: 100%
+}
+
+#graphic_highlights {
+		list-style:none none; 
+		padding-top:10px; 
+		border:none; 
+		text-decoration:none
+}
+
+#graphic_highlights a{color:#CCCCCC;}
+#graphic_highlights a:hover{color:#e60000;}
+
+.post{
+		padding:10px 0 10px 0;
+}
+
+.post h2{
+		font-family:Georgia, Sans-serif;
+		font-size:18px;
+}
+
+.entry{
+		line-height:18px;
+}
+
+p.postmetadata{
+		border-top:1px solid #ccc;
+		margin:10px 0 0 0;
+}
+
+.navigation{
+		padding:10px 0 0 0;
+		font-size: 14px;
+		font-weight: bold;
+		line-height:18px;
+}		
+
+.comments-template{
+	margin: 10px 0 0;
+	border-top: 1px solid #ccc;
+	padding: 10px 0 0;
+}
+
+.comments-template ol{
+	margin: 0;
+	padding: 0 0 15px;
+	list-style: none;
+}
+
+.comments-template ol li{
+	margin: 10px 0 0;
+	line-height: 18px;
+	padding: 0 0 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.comments-template h2, .comments-template h3{
+	font-family: Georgia, Sans-serif;
+	font-size: 16px;
+}
+
+.commentmetadata{
+	font-size: 12px;
+}
+
+.comments-template p.nocomments{
+	padding: 0;
+}
+
+.comments-template textarea{
+	font-family: Arial, Helvetica, Georgia, Sans-serif;
+	font-size: 12px;
+}
+
+.imagesize_75px{
+	padding: 3px 3px 3px 3px;
+}
+
