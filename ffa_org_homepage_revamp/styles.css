@@ -1,0 +1,266 @@
+@charset "utf-8";
+/* CSS Document */
+Body {
+	font-family:Arial, Helvetica, sans-serif;
+	font:12px;
+	color:#666666;
+}
+
+
+h1 {
+    font: small-caps 24px arial,helvetica,sans-serif;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+	border-bottom: 4px solid #13193D;
+    color: #004C97;
+}
+/****** Main Containers *******/
+#cpmain{
+	width:960px; 
+	padding:4px;
+	color:#474747; 
+	font:Arial, Verdana, Geneva, sans-serif;
+}
+
+#cprow-left {
+	float:left;
+	width:472px;
+	padding:4px;
+	height:325px;
+}
+
+#cprow-left p{
+	font-size: 13px;
+    margin-bottom: 5px;
+	padding:0 5px;
+}
+
+#cprow-right {
+	float:right;
+	width:472px;
+	padding:4px;
+	height:325px
+}	
+
+#cprow-bottom {;
+	clear:both;
+	float:left;
+}
+#cprow-bottom ul{
+	margin:0;
+	padding:0;
+}
+#cprow-bottom li{
+	float:left;
+	width:228;
+	border:#cccccc solid 1px;
+}
+
+#cprow-bottom li p {
+	font-size: 13px;
+    margin: 5px;
+}
+/****** /Main Containers *******/
+
+/******* MENU *******/  
+#container{  
+    /*margin: 7em auto;*/  
+    width: 472px;  
+}  
+#container ul{  
+    list-style: none;  
+    list-style-position: outside;
+	padding:0;
+	 
+}  
+#container ul.menu li{  
+    float: left;  
+    margin-right: 5px;  
+    margin-bottom: -1px;
+	margin:0;
+	z-index:1000
+	  
+}  
+#container ul.menu li{  
+    font-weight: 500;  
+    display: block;  
+    padding: 5px 10px 5px 10px;  
+    background: #000024;  
+    margin-bottom: -1px;  
+    border: 1px solid #d0ccc9;  
+    border-width: 1px 1px 1px 1px;  
+    position: relative;  
+    color: #ffffff;  
+    cursor: pointer;  
+}  
+#container ul.menu li.active{  
+    background:url(images/tab_highlight_bkg.jpg) repeat-x;  
+    top: -10px;  
+    border-bottom: 0;  
+    color: #000024;
+	padding-top:15px
+ 
+}  
+/******* /MENU *******/  
+/******* CONTENT *******/  
+.content{  
+    margin: 0 auto;  
+    background: #efefef;  
+    background: #fff;  
+    border: 1px solid #d0ccc9;  
+    text-align: left;  
+    padding: 20px 10px 20px 0  
+    padding-bottom: 20px;  
+    font-size: 12px;  
+}  
+.content h1{  
+    line-height: 1em;  
+    vertical-align: middle;  
+    height: 48px;  
+    padding: 10px 10px 10px 52px;  
+    font-size: 32px;  
+}  
+/******* /CONTENT *******/ 
+ 
+/******* WHAT'S NEW *******/  
+.content.news h1{  
+    background: transparent url(images/news.jpg) no-repeat scroll left top;  
+}  
+.content.news{  
+    display: block;
+	height: 300px;  
+}  
+
+.content.news a{  
+    color: #5f95ef;  
+}  
+/******* /WHAT'S NEW *******/  
+/******* LATEST BLOG *******/  
+.content.links h1{  
+    background: transparent url(images/links.jpg) no-repeat scroll left top;  
+}  
+.content.links{  
+    display: none;
+	height: 300px;  
+}  
+.content.links a{  
+    color: #5f95ef;  
+}  
+/******* /LATEST BLOG *******/
+/******* NEWS *******/  
+.newslist{
+	margin:10px;
+	padding:10px;
+	float:left;
+	 
+}
+.content.tutorials h1{  
+    background: transparent url(images/tuts.jpg) no-repeat scroll left top;  
+}  
+.content.tutorials{  
+    display: none;
+	height: 300px;  
+}  
+
+.content.tutorials a{  
+    color: #5f95ef;  
+}  
+
+/******* /NEWS *******/  
+
+/**** Home Welcome Buttons Section ****/
+
+.welcome_box{
+	padding:0;
+	margin:0;
+}
+.welcome_btn , .creed_btn, .history_btn, .readmore_btn{
+	float:left;
+	padding:0;
+	margin:10px;
+	overflow:hidden;
+	text-indent:-10000px;
+	width:135px;
+	height:24px;	
+	background-image:url(images/ffa_homebut_whoweare.jpg);
+
+}
+.creed_btn{
+	background-image:url(images/ffa_homebut_creed.jpg)
+}
+
+.history_btn{
+	background-image:url(images/ffa_homebut_history.jpg)
+}
+
+.readmore_btn{
+	background-image:url(images/ffahome_readmore_btn.jpg);
+	float:left;
+	margin:5px;
+	padding:0;
+}
+
+.welcome_btn:hover ,.creed_btn:hover, .history_btn:hover, .readmore_btn:hover{
+	background-position:0 -24px;	
+}
+/**** /Home Welcome Buttons Section ****/
+
+/**** Stay_Connected_Box Section ****/
+.stay_connected_box{
+	float:left;
+	height:133px;
+	border:#CCC solid thin;
+	margin:0;
+	padding:3px;
+	color:#184D84;
+	font-size:14px;	
+}
+.stay_connected_boxicons{
+	float:left;
+	/* [disabled]clear:left; */
+}
+.connect_fb, .connect_twitter, .connect_ffanation, .connect_subscribe, .connect_blog, .connect_utube{
+    float: left;
+    height: 37px;
+    margin:10px;
+    overflow: hidden;
+    padding: 0;
+    text-indent: -10000px;
+    width: 130px;
+}
+
+.connect_fb  { background-image: url(images/ffa_homebut_fb.jpg);}
+.connect_twitter { background-image: url(images/ffa_homebut_twitter.jpg);}
+.connect_ffanation { background-image: url(images/ffa_homebut_ffanation.jpg);}
+.connect_subscribe { background-image: url(images/ffa_homebut_subscribe.jpg);}
+.connect_blog { background-image: url(images/ffa_homebut_blog.jpg);}
+.connect_utube { background-image: url(images/ffa_homebut_youtube.jpg);}
+
+.connect_fb:hover, .connect_twitter:hover, .connect_ffanation:hover, .connect_subscribe:hover, .connect_blog:hover, .connect_utube:hover {
+	background-position:0 -37px;	
+}
+/**** /Stay_Connected_Box Section ****/
+/**** Bottom Area CSS ****/
+._area_box{
+	float:left;
+	margin:4px;
+	padding:1px;
+	width:228px;
+	height:240px;
+	border:#CCC solid thin;
+	list-style:none;
+}
+
+._header{
+	color: #004C97;
+    font: small-caps 20px arial,helvetica,sans-serif;
+    letter-spacing: -1px;
+    text-transform: capitalize;	
+	padding:0;
+	margin:0;
+}
+
+.ad {
+	margin:4px;
+}
+/**** /Bottom Area CSS ****/

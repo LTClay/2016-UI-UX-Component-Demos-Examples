@@ -1,0 +1,88 @@
+/* Set background for cart and main frames */
+#MainFrame, 
+#NexternalMain {
+	background:#FFF !important;
+}
+#NexternalCart, 
+#CartFrame {
+	background:#AACDE6 !important;
+}
+
+#nextBreadCrumbs {
+float: left;
+}
+#nextCategoriesBanner td,
+.banner2 td,
+.banner1 td{
+	text-align:left;
+	letter-spacing:-1px;
+	border-bottom:2px solid #284774;
+	background:none;
+	color:#284774;
+	font-size:16px;
+}
+
+/* Add padding to key elements to create more white space */
+#nextBreadCrumbs td {
+	padding-bottom:10px;
+}
+.nextCatDropdown {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#nextCurrentCatLabel {
+	padding-top:10px;
+	margin-bottom:10px;
+}
+#SortBy {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.nextTopBanner, #nextBannerHeader {
+	margin-top:6px;
+}
+#nextCategoriesBanner {
+	margin-bottom:10px;
+}
+a.nextButtonCheckout {
+	margin-top:10px;
+	margin-bottom:10px;
+	display:block;
+}
+#nextCartData td {
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.nextRelatedProdImg {
+ padding:right:10px;
+}
+/* left margin for category names on category list pages */
+body.main a.category {
+	padding-left:10px;
+	display:block;/*line-height:30px;*/
+}
+/* right margin for product thumbnails on product list pages */
+.thumbnail_img {
+	margin:0 10px 0 0;
+}
+a.nextAddToCartAnchor, a.nextSelectOptionsAnchor {
+	margin:10px 0 10px 6px;
+}
+/* tell a friend button margins */
+.nextButtonTellAFriend {
+	margin:10px 0 0 0;
+	display:block;
+}
+/* bookmark this product button margins */
+.nextButtonBookmark {
+	margin:6px 0 20px 0;
+	display:block;
+}
+/* product image margins for product detail pages */
+.product_img {
+	margin:0 10px 0 0;
+}
+
+td.store {
+	background:#FFF url(https://www.nexternal.com/ffa/images/bg_store.gif) 0 0 repeat-y;
+}

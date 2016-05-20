@@ -1,0 +1,47 @@
+/*Shop FFA - IE Box Model fixes - 2011*/
+#header ul, #header ul div, #header ul div form, #header ul div form input {
+padding:0;
+margin:0;
+}
+
+#header ul li h1 img {
+position:relative;
+top:5px;
+left:10px;
+}
+
+#header ul div {
+position:relative;
+left:310px;
+top:10px;
+width:250px;
+}
+
+#header ul div form {
+padding-top:5px;
+height:40px;
+width:248px;
+}
+
+#header ul div form p {
+clear:both;
+padding-top:-6px;
+}
+
+#topnav li .blue {
+margin-left:-171px;
+}
+
+.box-signuptoday form input {
+line-height:25px;
+padding-left:5px;
+}
+
+#content-sub {
+margin:0px auto;
+width:940px;
+font:normal 12px arial;
+border-top:solid 1px #184D7F;
+position:relative;
+top:5px;
+}
