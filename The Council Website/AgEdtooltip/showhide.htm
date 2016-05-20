@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>jQuery API - Show and Hide Panels</title>
+<style type="text/css">
+
+</style>
+</head>
+<body>
+<div id="companylogos">
+<ul>
+  <li><a class="icon one" title="one icon" href="http://google.com">company one</a><div id="one"><p><big><a href="http://google.com">National Post Secondary Student Organization</a></big><br />This is a new ffa project web site to help AG ed.  This new site will come with custom jquery features that include a photo slide show, toolstip, and more.<br /><small><a href="http://google.com">Learn More &rsaquo;&rsaquo;</a></small></p></div></li>
+  <li><a class="icon two" title="two icon" href="http://www.ffa.org">company two</a><div id="two"><p><big><a href="http://google.com">National Post Secondary Student Organization</a></big><br />This is a new ffa project web site to help AG ed.  This new site will come with custom jquery features that include a photo slide show, toolstip, and more.<br /><small><a href="http://google.com">Learn More &rsaquo;&rsaquo;</a></small></p></div></li>
+  <li><a class="icon three" title="three icon" href="http://google.com">company three</a><div id="three"><p><big><a href="http://google.com">National Post Secondary Student Organization</a></big><br />This is a new ffa project web site to help AG ed.  This new site will come with custom jquery features that include a photo slide show, toolstip, and more.<br /><small><a href="http://google.com">Learn More &rsaquo;&rsaquo;</a></small></p></div></li>
+  <li><a class="icon four" title="four icon" href="http://www.ffa.org">company four</a><div id="four"><p><big><a href="http://google.com">National Post Secondary Student Organization</a></big><br />This is a new ffa project web site to help AG ed.  This new site will come with custom jquery features that include a photo slide show, toolstip, and more.<br /><small><a href="http://google.com">Learn More &rsaquo;&rsaquo;</a></small></p></div></li>
+  <li><a class="icon five" title="five icon" href="http://google.com">company five</a><div id="five"><p><big><a href="http://google.com">National Post Secondary Student Organization</a></big><br />This is a new ffa project web site to help AG ed.  This new site will come with custom jquery features that include a photo slide show, toolstip, and more.<br /><small><a href="http://google.com">Learn More &rsaquo;&rsaquo;</a></small></p></div></li>
+  <li><a class="icon six" title="six icon" href="http://www.ffa.org">company six</a><div id="six"><p><big><a href="http://google.com">National Post Secondary Student Organization</a></big><br />This is a new ffa project web site to help AG ed.  This new site will come with custom jquery features that include a photo slide show, toolstip, and more.<br /><small><a href="http://google.com">Learn More &rsaquo;&rsaquo;</a></small></p></div></li>
+  <li><a class="icon seven" title="seven icon" href="http://google.com">company seven</a><div id="seven"><p><big><a href="http://google.com">National Post Secondary Student Organization</a></big><br />This is a new ffa project web site to help AG ed.  This new site will come with custom jquery features that include a photo slide show, toolstip, and more.<br /><small><a href="http://google.com">Learn More &rsaquo;&rsaquo;</a></small></p></div></li>
+  <li><a class="icon eight" title="eight icon" href="http://www.ffa.org">company eight</a><div id="eight"><p><big><a href="http://google.com">National Post Secondary Student Organization</a></big><br />This is a new ffa project web site to help AG ed.  This new site will come with custom jquery features that include a photo slide show, toolstip, and more.<br /><small><a href="http://google.com">Learn More &rsaquo;&rsaquo;</a></small></p></div></li>
+  <li><a class="icon nine" title="nine icon" href="http://google.com">company nine</a><div id="nine"><p><big><a href="http://google.com">National Post Secondary Student Organization</a></big><br />This is a new ffa project web site to help AG ed.  This new site will come with custom jquery features that include a photo slide show, toolstip, and more.<br /><small><a href="http://google.com">Learn More &rsaquo;&rsaquo;</a></small></p></div></li>
+  <li><a class="icon ten" title="ten icon" href="http://www.ffa.org">company ten</a><div id="ten"><p><big><a href="http://google.com">National Post Secondary Student Organization</a></big><br />This is a new ffa project web site to help AG ed.  This new site will come with custom jquery features that include a photo slide show, toolstip, and more.<br /><small><a href="http://google.com">Learn More &rsaquo;&rsaquo;</a></small></p></div></li>
+  <li><a class="icon eleven" title="eleven icon" href="http://google.com">company eleven</a><div id="eleven"><p><big><a href="http://google.com">National Post Secondary Student Organization</a></big><br />This is a new ffa project web site to help AG ed.  This new site will come with custom jquery features that include a photo slide show, toolstip, and more.<br /><small><a href="http://google.com">Learn More &rsaquo;&rsaquo;</a></small></p></div></li>
+  <li><a class="icon twelve" title="twelve icon" href="http://google.com">company twelve</a><div id="twelve"><p><big><a href="http://google.com">National Post Secondary Student Organization</a></big><br />This is a new ffa project web site to help AG ed.  This new site will come with custom jquery features that include a photo slide show, toolstip, and more.<br /><small><a href="http://google.com">Learn More &rsaquo;&rsaquo;</a></small></p></div></li>
+</ul>
+<hr />
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+/*JQ - AgED TOOLTIP*/
+$.agedTooltip = function() {	
+$('#companylogos ul li div p').append('<img class="arrow" src="images/tooltiparrow.gif" />');
+if($.browser.msie) {$('.arrow').css({'bottom':'-24px'});}
+var myTimer = null;
+$('#companylogos ul li a').hover(function(){
+  var tooltip = $(this).next('div');	
+	if(!tooltip.is(':visible')) {tooltip.fadeIn("fast");}	
+},function() {
+	 var tooltip = $(this).next('div'); 
+	 myTimer = setTimeout(function(){tooltip.hide();},200);
+});
+$('#companylogos ul li div').hover(function() {
+	clearTimeout(myTimer);
+	},function() {	
+	$(this).fadeOut("fast");	
+});
+}
+
+$(function() { 
+  $.agedTooltip();
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+/* CSS Document */
+#psliderC {
+display:none;
+overflow:hidden;
+}
+
+#psliderC img  {
+border:0;
+}
+
+.plusslider{
+padding:0;
+margin: 0 auto;
+overflow: hidden;
+position: relative;
+}
+.plusslider img,
+.plusslider-pagination li,
+.plusSlider-thumbnails a,
+.plusslider-arrows .next,
+.plusslider-arrows .prev{
+border:none;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+.plusslider .child{ float: left;}
+/*Small Dot Controls */
+.plusslider-pagination-wrapper{
+position: absolute;
+right: 0px;
+top: 25px;
+z-index:2;
+}
+.plusslider-pagination{
+padding:0;
+margin: 0;
+}
+.plusslider-pagination li{
+margin: 0 3px;
+display: block;
+width: 20px;
+height: 10px;
+float: left;
+position: relative;
+font-size:0;
+background: url('https://www.ffa.org/Style Library/FFA/plusslider/plus-sprite.png') no-repeat -20px 0px;
+cursor: pointer;
+text-indent: -9999px; /*IE6 fix */
+}
+.plusslider-pagination .current, .plusslider-pagination li:hover{
+background-position: top left;
+}
+.plusslider-arrows{
+padding:0;
+margin:0;
+}
+.plusslider-arrows li{
+display: block;
+height: 60px;
+width: 45px;
+position: absolute;
+top:70px;
+z-index:3;
+text-indent: -9999px;
+opacity: 0;
+background: url('https://www.ffa.org/Style Library/FFA/plusslider/plus-sprite.png') no-repeat;
+cursor: pointer;
+}
+.plusslider:hover .plusslider-arrows li{opacity: 1;}
+.plusslider-arrows .prev{background-position: 0px -21px; left: 10px;}
+.plusslider-arrows .prev:hover{background-position: 0px -87px; left: 10px;}
+.plusslider-arrows .next{background-position: -75px -21px; right: 10px;}
+.plusslider-arrows .next:hover{background-position: -75px -87px;}
+/* PlusFader Specific */
+.plustype-fader .current{ z-index: 2;}
+.plustype-fader .child{ display: none; position: absolute; left: 0; top: 0;}
+.plustype-fader .plusslider-pagination{ position: relative; z-index: 200;}
+/* No-javascript hack fallback */
+#slider > *, #slider2 > *{ display: none;}
+#slider > *:first-child, #slider2 > *:first-child{ display: block;}
+/* End no-javascript fallback */
+/*Optional Thumbnails*/
+.plusSlider-thumbnails{
+position:absolute;
+right: 350px;
+top: 50px;
+background-repeat: no-repeat;
+opacity: 0;
+}
+.plusSlider-thumbnails{
+padding:0;
+margin:0;
+z-index:9999;
+}
+.plusSlider-thumbnails img{
+width:260px;
+height:70px;
+border:none;
+}
+.plusSlider-thumbnails .child{
+display: none;
+width:260px;
+height:70px;
+position: absolute;
+right: 0;
+top: 0;
+/*CSS3 tactics*/
+-webkit-background-clip: padding;
+-moz-background-clip: padding;
+background-clip: padding-box;
+-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+border-radius: 1px;
+background-color: rgba(255, 255, 255, 0.6);
+border: 5px solid rgba(255, 255, 255, 0.6);
+}
+.plusSlider-active{
+opacity: 1;
+}

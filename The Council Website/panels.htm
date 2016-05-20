@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Expand Panels</title>
+<style type="text/css">
+#panels .expand {
+padding:15px;
+margin:5px 0 0;
+background:transparent url(../images/arrow_white_d.gif) 98% 50% no-repeat;
+border:dotted 1px #ccccd3;
+text-transform:uppercase;
+font:bold 15px arial;
+color: #2C84B6;
+cursor:pointer;
+}
+#panels .expand:hover {
+	background-color:#eee;
+}
+#panels div {
+display:none; /*hidden by default*/
+padding:0;
+margin:0 0 0 10px;
+}
+#panels div h4 {
+padding:0;
+margin:5px 0;
+font:bold 14px arial;	
+}
+#panels div p, #panels div ul {
+color:#777;
+font:normal 12px arial;
+list-style-position:inside;
+}
+#panels div a {
+	text-decoration:none;
+	color:#2C84B6;
+}
+#panels div a:hover {
+	text-decoration:underline;
+	color:#145F89;
+}
+#panels .expand a.open:link, #panels .expand a.open:visited  {
+background-image: url(arrow_white_u.gif);
+}
+</style>
+</head>
+<body>
+<p>Create your list like this and mimic the patterns</p>
+
+<!--*EXPAND PANELS*-->
+<div id="panels">
+
+  <!--*FIRST PATTERN*-->
+  <h2 id="aorder" class="expand order">Place Your Order</h2>
+  <div id="order">
+  <h4>PHONE:</h4>
+  <p>
+  To place a telephone order, call toll free 1-888-332-2668 between 8:00 a.m. and 5:30 p.m. Eastern time.  (Please note: Indianapolis now uses Eastern Daylight Time from spring through fall.) FFA accepts credit cards and valid school purchase orders for telephone orders. Please make sure to have your credit card or valid school purchase order information ready when placing your order.
+  </p>
+  </div>
+  
+  <!--*SECOND PATTERN*-->    
+  <h2 id="ashop" class="expand shop">Shop here</h2>
+  <div id="shop">
+  <h4>SHOP:</h4>
+  <p>
+  To place a telephone order, call toll free 1-888-332-2668 between 8:00 a.m. and 5:30 p.m. Eastern time.  (Please note: Indianapolis now uses Eastern Daylight Time from spring through fall.) FFA accepts credit cards and valid school purchase orders for telephone orders. Please make sure to have your credit card or valid school purchase order information ready when placing your order.
+  </p>
+  </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$.expandPanels = function() {
+$('#panels .expand').click(function(e){
+	e.preventDefault();
+	var mclass=$(this).attr('class').split(' ')[1];
+	var $mcontent = $("#" + mclass);
+	if ($mcontent.is(':hidden')) {
+	$mcontent.delay(100).fadeIn().slideDown().prev().css({'background-image':'url("images/arrow_white_u.gif")'});
+	}
+	else {
+	$mcontent.delay(100).slideUp().prev().css({'background-image':'url("images/arrow_white_d.gif")'});
+	}
+});
+}
+
+$(function() {
+	$.expandPanels();
+});
+</script>
+</body>
+</html>

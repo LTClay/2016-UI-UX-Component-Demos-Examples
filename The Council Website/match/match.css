@@ -1,0 +1,41 @@
+/* CSS Document */
+body {
+	font:normal 12px arial;
+	color:#fff;
+	background:#1c1c1c;
+}
+#topmain_nav {
+	padding:0;
+	margin:0;
+	width:110px;
+	list-style:none;
+  border:solid 1px #aaa;
+	border-top:0;	
+}
+
+#topmain_nav li {
+ padding:0;
+ margin:0;
+ border-top:solid 1px #aaa;	
+}
+
+#topmain_nav li a {
+	padding:10px 0 0 10px;
+	margin:0;
+	display:block;
+	height:40px;
+	width:100px;
+	color:#eee;
+	font:normal 12px arial;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+
+#topmain_nav li a:hover {
+	background:#333;
+}
+
+#topmain_nav .currentpage {
+	background:#9F3;
+	color:#360;
+}

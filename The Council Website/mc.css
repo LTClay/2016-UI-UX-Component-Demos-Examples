@@ -1,0 +1,86 @@
+/*CAROUSEL SLIDERS STARTS*/
+hr {
+clear:both;
+visibility:hidden;
+height:0;
+border:0;
+font-size:0;
+}
+
+#mCarousel {
+	padding:0;
+/*	margin:5px auto 0*/;
+	width:1070px;
+	height:156px;
+}
+
+#mCarousel ul {
+	padding:0;
+	margin:0;
+	list-style:none;	
+}
+
+#mCarousel li {
+	padding:0;
+	margin:0;
+	border:solid 0 #555;
+	height:156px;
+}
+
+#mCarousel li p {
+	padding:0;
+	margin:0;
+}
+
+#mCarousel li a {
+	outline:0;	
+}
+
+#mCarousel li img {
+	padding:0;
+	margin:0;
+	height:156px;
+	width:137px;
+	border:0;
+}
+
+#mCarousel .prev, 
+#mCarousel .next,
+#mCarousel .horizontal {
+	padding:0;
+	margin:0;
+	float:left;
+	cursor:pointer;
+}
+	
+#mCarousel .prev, 
+#mCarousel .next {
+	padding:0;	
+	margin:140px 0;
+	display:block;
+	width:33px;
+	height:14px;
+	text-transform:uppercase;
+	background:#000013;
+	color: #fff;
+	overflow:hidden;
+	text-indent:-10000px;
+	outline:#000013;	
+}
+
+#mCarousel .prev {
+	background: url(images/minislider_btn_left.gif)  center 0px  no-repeat;				
+}
+
+#mCarousel .prev:hover {
+	background-position:center -14px;
+}
+			
+#mCarousel .next {
+	background: url(images/minislider_btn_right.gif) center 0px  no-repeat;
+
+}
+
+#mCarousel .next:hover {
+	background-position:center -14px;	
+}
